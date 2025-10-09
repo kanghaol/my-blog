@@ -1,27 +1,99 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
 
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Light Mode */
+  --background: #f4f7fb;
+  --text: #1a1a1a;
+  --accent: #0ea5e9;
+  --secondary: #0b1220;
+  --card-bg: #ffffff;
+  --border-color: #dddddd;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+[data-theme="dark"] {
+  --background: #1A1A1A;
+  --text: #F5F5F5;
+  --accent: #8B0000;
+  --secondary: #9CAF88;
+  --card-bg: #222222;
+  --border-color: #333333;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
+  color: var(--text);
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.bg-card {
+  background-color: var(--card-bg);
+}
+.text-accent {
+  color: var(--accent);
+}
+.border-accent {
+  border-color: var(--accent);
+}
+
+a {
+  color: var(--accent);
+  transition: color 0.2s ease;
+}
+
+header,
+footer,
+nav {
+  background-color: var(--card-bg);
+  border-color: var(--border-color);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+@keyframes slow-zoom {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.28); }
+}
+
+.animate-slow-zoom {
+  animation: slow-zoom 20s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+
+@keyframes spin-once {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-once {
+  animation: spin-once 0.3s ease-in-out;
+}
+
+
+.cursor-blink {
+  display: inline-block;
+  margin-left: 2px;
+  color: white;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
+.font-nixie {
+  font-family: 'Orbitron', monospace;
 }
