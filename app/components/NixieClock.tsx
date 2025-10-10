@@ -31,8 +31,8 @@ export default function NixieClock() {
 
           {/*  Glass reflection overlay */}
           <div className="absolute inset-0 rounded-xl overflow-hidden pointer-events-none">
-            <div className="absolute inset-0 bg-gradient-to-t from-transparent via-white/10 to-transparent opacity-60"></div>
-            <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/20 to-transparent opacity-20 rounded-t-xl"></div>
+            <div className=" absolute inset-0 bg-gradient-to-t from-transparent via-white/10 to-transparent opacity-60"></div>
+            <div className="glass-shine absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/20 to-transparent opacity-20 rounded-t-xl"></div>
             {/* Curved light reflection */}
             <div className="absolute top-[10%] left-[5%] w-[90%] h-[25%] bg-gradient-to-r from-white/10 via-white/40 to-white/10 opacity-30 blur-sm rounded-full rotate-[2deg]"></div>
           </div>

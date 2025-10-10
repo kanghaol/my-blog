@@ -4,11 +4,11 @@
 
 :root {
   /* Light Mode */
-  --background: #f4f7fb;
+  --background: #EEECF3;
   --text: #1a1a1a;
   --accent: #0ea5e9;
   --secondary: #0b1220;
-  --card-bg: #ffffff;
+  --card-bg: #FBFBFB;
   --border-color: #dddddd;
 }
 
@@ -96,4 +96,18 @@ nav {
 
 .font-nixie {
   font-family: 'Orbitron', monospace;
+}
+
+.glass-shine {
+  animation: glassMove 6s ease-in-out infinite;
+}
+
+@keyframes glassMove {
+  0% { transform: translateY(0) rotate(0deg); opacity: 0.4; }
+  50% { transform: translateY(-10%) rotate(1deg); opacity: 0.6; }
+  100% { transform: translateY(0) rotate(0deg); opacity: 0.4; }
+}
+
+.glass-shine {
+  animation: glassMove 6s ease-in-out infinite;
 }

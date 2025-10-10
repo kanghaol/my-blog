@@ -25,11 +25,9 @@ export default function RootLayout({
         <div className="relative">
           <AnimatedHero />
 
-          {/* portal target for per-page overlay content */}
-          <div
-            id="hero-overlay-root"
-            className="absolute top-0 left-0 w-full h-[75vh] pointer-events-none z-30"
-          />
+          <div id="hero-overlay-root" className="absolute top-0 left-0 w-full h-[75vh] pointer-events-none z-30">
+            {/* portal target for per-page overlay content */}
+          </div>
         </div>
 
         {/* page content below the AnimatedHero */}

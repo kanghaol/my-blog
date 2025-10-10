@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import Typewriter from "./Typewriter";
+
 
 const wallpapers = [
   "/background-house.png",
