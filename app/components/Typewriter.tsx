@@ -54,7 +54,7 @@ const Typewriter: React.FC = () => {
 
   return (
     <div className="flex justify-center items-center text-white text-2xl font-semibold">
-      <span ref={typewriterRef} id="typewriter-text" className="text-5xl font-bold"></span>
+      <span ref={typewriterRef} id="typewriter-text" className="text-5xl font-semibold"></span>
       <span className="cursor-blink text-5xl">|</span>
     </div>
   );
