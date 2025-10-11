@@ -1,19 +1,47 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 interface FallingLeavesProps {
-  count?: number;      // number of leaves
-  minSize?: number;    // minimum size multiplier
-  maxSize?: number;    // maximum size multiplier
-  fallSpeed?: number; // speed of falling (1 or lower is perferred)
+  count?: number;
+  minSize?: number;
+  maxSize?: number;
+  fallSpeed?: number;
 }
 
 export default function FallingLeavesCanvas({
   count = 12,
   minSize = 0.8,
   maxSize = 1.4,
-  fallSpeed = 0.5, //smaller = slower
+  fallSpeed = 0.5,
 }: FallingLeavesProps) {
+  const [theme, setTheme] = useState<"light" | "dark">("light");
+
+  useEffect(() => {
+    // detect current theme
+    const saved = localStorage.getItem("theme") as "light" | "dark" | null;
+    const prefersDark =
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const current = saved ? saved : prefersDark ? "dark" : "light";
+    setTheme(current);
+
+    // listen for theme changes triggered by your toggle button
+    const observer = new MutationObserver(() => {
+      const attr = document.documentElement.getAttribute("data-theme") as
+        | "light"
+        | "dark"
+        | null;
+      if (attr) setTheme(attr);
+    });
+
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["data-theme"],
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   useEffect(() => {
     const canvas = document.createElement("canvas");
     canvas.id = "falling-leaves";
@@ -26,7 +54,9 @@ export default function FallingLeavesCanvas({
 
     const ctx = canvas.getContext("2d")!;
     const img = new Image();
-    img.src = "/maple.png";
+
+    //  Switch image depending on theme
+    img.src = theme === "dark" ? "/maple-dark.png" : "/maple-light.png";
 
     function resize() {
       canvas.width = window.innerWidth;
@@ -75,7 +105,7 @@ export default function FallingLeavesCanvas({
       window.removeEventListener("resize", resize);
       canvas.remove();
     };
-  }, [count, minSize, maxSize]);
+  }, [theme, count, minSize, maxSize, fallSpeed]);
 
   return null;
 }

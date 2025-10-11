@@ -4,13 +4,14 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    "./blog/**/*.{js.ts.jsx.tsx}"
+    "./blog/**/*.{js,ts,jsx,tsx}",   
+    "./anime/**/*.{js,ts,jsx,tsx}",
+    "./projects/**/*.{js,ts,jsx,tsx}",
+    "./about/**/*.{js,ts,jsx,tsx}",
+    "./reference/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui"), require("@tailwindcss/typography")],
-  daisyui:{
-    themes: ["pastel", "dark"],
-  }
+  plugins: [require("@tailwindcss/typography")],
 };

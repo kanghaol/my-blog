@@ -69,7 +69,7 @@ export default function HomePage({ posts }) {
                   ))}
                 </div>
 
-                <div className="rounded-xl overflow-hidden">
+                <div className="rounded-xl overflow-hidden w-xl h-auto">
                   <img src={post.thumbnail} alt={post.title} className="w-full object-cover hover:scale-[1.02] transition-transform duration-500" />
                 </div>
               </article>

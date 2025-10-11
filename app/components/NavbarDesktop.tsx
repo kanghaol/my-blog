@@ -5,10 +5,11 @@ import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
   { name: "Home", href: "/" },
-  { name: "Reference", href: "/reference" },
-  { name: "AnimeList", href: "/anime" },
   { name: "Projects", href: "/projects" },
-  { name: "About", href: "/about" },
+  { name: "About Me", href: "/about" },
+  { name: "AnimeList", href: "/anime" },
+  { name: "Reference/Tools", href: "/reference" },
+ 
 ];
 
 export default function NavbarDesktop() {

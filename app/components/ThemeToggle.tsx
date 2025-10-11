@@ -45,7 +45,7 @@ export default function ThemeToggle() {
       id="theme-toggle-btn"
       onClick={toggleTheme}
       aria-label="Toggle theme"
-      className={`btn btn-circle btn-md bg-transparent backdrop-blur-md shadow-sm hover:scale-110 transition duration-300 text-[var(--accent)]`}
+      className={`relative flex items-center justify-center h-10 w-10 rounded-full transition-all duration-300 text-[var(--accent)] hover:bg-[var(--card-bg)] hover:backdrop-blur-md hover:shadow-md hover:scale-110`}
     >
       {theme === "light" ? (
         <Icon

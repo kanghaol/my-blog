@@ -49,9 +49,16 @@ nav {
   background-color: var(--card-bg);
   border-color: var(--border-color);
   color: var(--foreground);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+[data-theme="dark"] nav {
+  background: rgba(26, 26, 26, 0.4);
+  border-color: rgba(255, 255, 255, 0.05);
+}
 
 
 @keyframes slow-zoom {
