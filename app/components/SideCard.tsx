@@ -1,4 +1,5 @@
-import { siGithub, siGmail } from "simple-icons";
+"use client"
+import { siGithub } from "simple-icons";
 import { FaSteam, FaLinkedin, FaRegFilePdf} from "react-icons/fa";
 import { useState } from "react";
 

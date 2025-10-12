@@ -1,866 +1,1500 @@
 [
     {
+        "name": "JUJUTSU KAISEN: Hidden Inventory / Premature Death - The Movie",
+        "poster_path": "https://image.tmdb.org/t/p/w500/6OPkylhlyGw3kCAEEJvTD5eDTXT.jpg",
+        "rating": 10.0,
+        "type": "Movie",
+        "first_air_date": "2025-05-30"
+    },
+    {
         "name": "SAKAMOTO DAYS",
         "poster_path": "https://image.tmdb.org/t/p/w500/wRpCqsJFyKNuh5FMegNPrhzp2NF.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2025-01-11"
     },
     {
         "name": "Frieren: Beyond Journey's End",
-        "poster_path": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+        "poster_path": "https://image.tmdb.org/t/p/w500/zV7yPj7vXFU7hRhgGu06blANHS6.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2023-09-29"
     },
     {
         "name": "SPY x FAMILY",
         "poster_path": "https://image.tmdb.org/t/p/w500/7NAvPYPAu7MeHwP8E9sn81PqsRh.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2022-04-09"
+    },
+    {
+        "name": "Jujutsu Kaisen 0",
+        "poster_path": "https://image.tmdb.org/t/p/w500/23oJaeBh0FDk2mQ2P240PU9Xxfh.jpg",
+        "rating": 10.0,
+        "type": "Movie",
+        "first_air_date": "2021-12-24"
     },
     {
         "name": "86 EIGHTY-SIX",
         "poster_path": "https://image.tmdb.org/t/p/w500/pp2gzafNPiug63UskS2niHK9Y04.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2021-04-11"
     },
     {
         "name": "Fate/Grand Order Absolute Demonic Front: Babylonia",
         "poster_path": "https://image.tmdb.org/t/p/w500/pVVANmkpHBwDPRwn4ymprF56Yjr.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2019-10-05"
     },
     {
         "name": "A Certain Scientific Accelerator",
         "poster_path": "https://image.tmdb.org/t/p/w500/10KGPY9ihuI5v9an0VF1eU5cxOs.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2019-07-12"
     },
     {
         "name": "Vinland Saga",
         "poster_path": "https://image.tmdb.org/t/p/w500/vUHlpA5c1NXkds59reY3HMb4Abs.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2019-07-08"
     },
     {
         "name": "Kaguya-sama: Love Is War",
         "poster_path": "https://image.tmdb.org/t/p/w500/5khbC6AuNgnvnoDbjIMKCOhEtIc.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2019-01-12"
     },
     {
         "name": "Grand Blue Dreaming",
         "poster_path": "https://image.tmdb.org/t/p/w500/pzX1uUpyjpX7tHcol1IAVvDRwIw.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2018-07-14"
     },
     {
         "name": "Steins;Gate 0",
         "poster_path": "https://image.tmdb.org/t/p/w500/9u07yBllJTBRIcYxnfbgUxougk5.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2018-04-12"
     },
     {
         "name": "Kino's Journey -the Beautiful World- the Animated Series",
         "poster_path": "https://image.tmdb.org/t/p/w500/nfHnr1rS278EyNwvG32BZ3oWPdX.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2017-10-06"
+    },
+    {
+        "name": "No Game, No Life: Zero",
+        "poster_path": "https://image.tmdb.org/t/p/w500/cCBB6BGRj5nCTaEgogDtkHfjOLK.jpg",
+        "rating": 10.0,
+        "type": "Movie",
+        "first_air_date": "2017-07-15"
     },
     {
         "name": "The Disastrous Life of Saiki K.",
         "poster_path": "https://image.tmdb.org/t/p/w500/tpym31HVeQgenaubvCxkMF3kFHy.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2016-07-11"
     },
     {
         "name": "ReLIFE",
         "poster_path": "https://image.tmdb.org/t/p/w500/aRK64bB8hMsuZZnitebPyKqOR5d.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2016-07-02"
     },
     {
         "name": "Bungo Stray Dogs",
         "poster_path": "https://image.tmdb.org/t/p/w500/6AQmGhkYwAqW2OevjXbsh7tZnNO.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2016-04-07"
     },
     {
         "name": "One-Punch Man",
         "poster_path": "https://image.tmdb.org/t/p/w500/jbYJuxfZMpYDalkiOnBcCv9TaL.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2015-10-05"
     },
     {
         "name": "Assassination Classroom",
         "poster_path": "https://image.tmdb.org/t/p/w500/qf0l0nQ2t06Es3cSXflqx6l6vsJ.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2015-01-10"
     },
     {
         "name": "Fate/stay night [Unlimited Blade Works]",
         "poster_path": "https://image.tmdb.org/t/p/w500/jyqi5BkDoKKIA2WAoz3HBtRHld3.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2014-10-12"
     },
     {
         "name": "Your Lie in April",
         "poster_path": "https://image.tmdb.org/t/p/w500/rRjfH3ckTYz8z8aSkJshFL4VyK9.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2014-10-10"
     },
     {
         "name": "No Game No Life",
         "poster_path": "https://image.tmdb.org/t/p/w500/kN4BhRDbP3b1nuxpYC443jVLEh5.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2014-04-09"
     },
     {
         "name": "Log Horizon",
         "poster_path": "https://image.tmdb.org/t/p/w500/62vfauCjvUmcaev0yfCnASa6yhm.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2013-10-05"
+    },
+    {
+        "name": "Steins;Gate: The Movie - Load Region of Déjà Vu",
+        "poster_path": "https://image.tmdb.org/t/p/w500/bXhogkZCR0aOQ077rfMULYbDmtH.jpg",
+        "rating": 10.0,
+        "type": "Movie",
+        "first_air_date": "2013-04-20"
     },
     {
         "name": "Psycho-Pass",
         "poster_path": "https://image.tmdb.org/t/p/w500/uWnP6qTcc4imPJ9ZHaXlPQlcYnB.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2012-10-12"
     },
     {
         "name": "Fate/Zero",
         "poster_path": "https://image.tmdb.org/t/p/w500/chUbHBiMX7buj8TzOEIjHHPCJfF.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2011-10-02"
     },
     {
         "name": "Steins;Gate",
         "poster_path": "https://image.tmdb.org/t/p/w500/5zxePQEsUKLYDh2kpXGQAeInjUU.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2011-04-06"
     },
     {
         "name": "Angel Beats!",
         "poster_path": "https://image.tmdb.org/t/p/w500/ld5fQq1PltjjLbWVww6KBV79DLt.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2010-04-03"
     },
     {
         "name": "Durarara!!",
         "poster_path": "https://image.tmdb.org/t/p/w500/i2YqpHaPEMW2JHhFFnyOxgGBMNP.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2010-01-08"
     },
     {
         "name": "A Certain Scientific Railgun",
         "poster_path": "https://image.tmdb.org/t/p/w500/dZt1dqw0K4JGhwcqTh8yExHYK9w.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2009-10-02"
     },
     {
         "name": "Fullmetal Alchemist: Brotherhood",
         "poster_path": "https://image.tmdb.org/t/p/w500/5ZFUEOULaVml7pQuXxhpR2SmVUw.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2009-04-05"
     },
     {
         "name": "Yu-Gi-Oh! GX",
         "poster_path": "https://image.tmdb.org/t/p/w500/vhY30rXaM5axSpAdr1M1HRQrQGa.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2004-10-06"
     },
     {
         "name": "Naruto",
         "poster_path": "https://image.tmdb.org/t/p/w500/xppeysfvDKVx775MFuH8Z9BlpMk.jpg",
         "rating": 10.0,
+        "type": "TV",
         "first_air_date": "2002-10-03"
+    },
+    {
+        "name": "Detective Conan: The Phantom of Baker Street",
+        "poster_path": "https://image.tmdb.org/t/p/w500/AbgADjLIYoLAc3mayVWGBWSbjT.jpg",
+        "rating": 10.0,
+        "type": "Movie",
+        "first_air_date": "2002-04-20"
     },
     {
         "name": "Makeine: Too Many Losing Heroines!",
         "poster_path": "https://image.tmdb.org/t/p/w500/nLBBhmzN6tPhxMy9aFzDqMbAc4V.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2024-07-14"
+    },
+    {
+        "name": "HAIKYU!! The Dumpster Battle",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ntRU0OA4etGGiMMmH1Yw0bnaMdW.jpg",
+        "rating": 9.0,
+        "type": "Movie",
+        "first_air_date": "2024-02-16"
+    },
+    {
+        "name": "SPY x FAMILY CODE: White",
+        "poster_path": "https://image.tmdb.org/t/p/w500/xlIQf4y9eB14iYzNN142tROIWON.jpg",
+        "rating": 9.0,
+        "type": "Movie",
+        "first_air_date": "2023-12-22"
+    },
+    {
+        "name": "Detective Conan: Black Iron Submarine",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ksQ8uNgoWsVH6a0oPB6zx08pOwU.jpg",
+        "rating": 9.0,
+        "type": "Movie",
+        "first_air_date": "2023-04-14"
     },
     {
         "name": "KONOSUBA – An Explosion on This Wonderful World!",
         "poster_path": "https://image.tmdb.org/t/p/w500/68rh8l8RaGujTDF6k87yykxixIy.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2023-04-06"
     },
     {
         "name": "BOCCHI THE ROCK!",
         "poster_path": "https://image.tmdb.org/t/p/w500/ugNZRg4Dqirjh0p1GhSrRqOi3rb.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2022-10-09"
     },
     {
         "name": "Summer Time Rendering",
         "poster_path": "https://image.tmdb.org/t/p/w500/m9e7chRW8Q8Go1Dv00RCUHbMoNe.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2022-04-15"
     },
     {
         "name": "The Slime Diaries",
         "poster_path": "https://image.tmdb.org/t/p/w500/xONBusecKNd5BAaYue0pFKXANU6.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2021-04-06"
+    },
+    {
+        "name": "Fate/stay night: Heaven's Feel III. Spring Song",
+        "poster_path": "https://image.tmdb.org/t/p/w500/hIK5kEdFwOHnHTa06ntTVSfG9im.jpg",
+        "rating": 9.0,
+        "type": "Movie",
+        "first_air_date": "2020-08-15"
+    },
+    {
+        "name": "Psycho-Pass 3: First Inspector",
+        "poster_path": "https://image.tmdb.org/t/p/w500/5Ln3Hr6UYvnnQXLIEMotdeo2BCK.jpg",
+        "rating": 9.0,
+        "type": "Movie",
+        "first_air_date": "2020-03-27"
     },
     {
         "name": "Fire Force",
         "poster_path": "https://image.tmdb.org/t/p/w500/Alx1QJZeiweoM0ZVSnJ7PnuqPQx.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2019-07-05"
     },
     {
         "name": "That Time I Got Reincarnated as a Slime",
         "poster_path": "https://image.tmdb.org/t/p/w500/pzujcdPAoH361NObVrtbA7zACE7.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2018-10-02"
     },
     {
         "name": "Made in Abyss",
         "poster_path": "https://image.tmdb.org/t/p/w500/f6U3odfIb3pCXMGKRTQGGF9o1Qg.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2017-07-07"
+    },
+    {
+        "name": "Case Closed: The Crimson Love Letter",
+        "poster_path": "https://image.tmdb.org/t/p/w500/jj2bDnXgwL9BlmZSdhd6N73HqNM.jpg",
+        "rating": 9.0,
+        "type": "Movie",
+        "first_air_date": "2017-04-15"
     },
     {
         "name": "The Numbers",
         "poster_path": "https://image.tmdb.org/t/p/w500/deAAWfBOx5ObJji03bEv19pY9u5.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2016-10-05"
+    },
+    {
+        "name": "A Silent Voice: The Movie",
+        "poster_path": "https://image.tmdb.org/t/p/w500/tuFaWiqX0TXoWu7DGNcmX3UW7sT.jpg",
+        "rating": 9.0,
+        "type": "Movie",
+        "first_air_date": "2016-09-17"
     },
     {
         "name": "KONOSUBA - God's blessing on this wonderful world!",
         "poster_path": "https://image.tmdb.org/t/p/w500/oRaOeQlwktbGSd2T31FYAcgHZlh.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2016-01-14"
     },
     {
         "name": "Magic Kaito 1412",
         "poster_path": "https://image.tmdb.org/t/p/w500/yFAqxNPOK5JkWKLSSB65gK59W8Q.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2014-10-04"
     },
     {
         "name": "Akame ga Kill!",
         "poster_path": "https://image.tmdb.org/t/p/w500/rMpvMbSlPbm5QYfFem9fx2Jnttq.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2014-07-07"
     },
     {
         "name": "Tokyo Ghoul",
         "poster_path": "https://image.tmdb.org/t/p/w500/1m4RlC9BTCbyY549TOdVQ5NRPcR.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2014-07-04"
     },
     {
         "name": "Haikyu!!",
         "poster_path": "https://image.tmdb.org/t/p/w500/8WEr48swcqe89Zsy5sdrGCASlIg.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2014-04-06"
     },
     {
         "name": "Noragami",
         "poster_path": "https://image.tmdb.org/t/p/w500/5hb8qfoPKQMlLfuhZcbcXwCRVEd.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2014-01-05"
     },
     {
         "name": "Blood Lad",
         "poster_path": "https://image.tmdb.org/t/p/w500/6ySatbrYDxvHkXaq7ZjIRRmJuQB.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2013-07-08"
+    },
+    {
+        "name": "The Garden of Words",
+        "poster_path": "https://image.tmdb.org/t/p/w500/mXUCVq3HMtS4Y9IQ8vmEOPyN0vH.jpg",
+        "rating": 9.0,
+        "type": "Movie",
+        "first_air_date": "2013-05-31"
     },
     {
         "name": "My Teen Romantic Comedy SNAFU",
         "poster_path": "https://image.tmdb.org/t/p/w500/sb5MNoeZGHX21qvtwhmizUsJJqq.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2013-04-05"
     },
     {
         "name": "Sword Art Online",
         "poster_path": "https://image.tmdb.org/t/p/w500/9m8bFIXPg26taNrFSXGwEORVACD.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2012-07-08"
     },
     {
         "name": "Hyouka",
         "poster_path": "https://image.tmdb.org/t/p/w500/qoAig2n9LkukqnizytaBtOSwif7.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2012-04-23"
     },
     {
         "name": "Daily Lives of High School Boys",
         "poster_path": "https://image.tmdb.org/t/p/w500/AhNuEIObse9eQWW2vFGgB5sI6MZ.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2012-01-10"
     },
     {
         "name": "Fairy Tail",
         "poster_path": "https://image.tmdb.org/t/p/w500/h50lj7xO65qafNYZCrfQ7ztkMBD.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2009-10-12"
     },
     {
         "name": "Naruto Shippūden",
         "poster_path": "https://image.tmdb.org/t/p/w500/71mASgFgSiPl9QUexVH8BubU0lD.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2007-02-15"
     },
     {
         "name": "REBORN!",
         "poster_path": "https://image.tmdb.org/t/p/w500/6x7mx9f3ufHCC3pNgMoMnzVo3jw.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2006-10-07"
     },
     {
         "name": "Death Note",
         "poster_path": "https://image.tmdb.org/t/p/w500/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2006-10-04"
     },
     {
         "name": "Fate/stay night",
         "poster_path": "https://image.tmdb.org/t/p/w500/x7nYPOveHhINREhTtwBHot9ersB.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2006-01-07"
     },
     {
         "name": "Bleach",
         "poster_path": "https://image.tmdb.org/t/p/w500/2EewmxXe72ogD0EaWM8gqa0ccIw.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "2004-10-05"
     },
     {
         "name": "One Piece",
         "poster_path": "https://image.tmdb.org/t/p/w500/cMD9Ygz11zjJzAovURpO75Qg7rT.jpg",
         "rating": 9.0,
+        "type": "TV",
         "first_air_date": "1999-10-20"
     },
     {
         "name": "Tougen Anki",
         "poster_path": "https://image.tmdb.org/t/p/w500/vnasRNhwT5M3OvTAMzYn4i5fQcT.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2025-07-11"
     },
     {
         "name": "Dan Da Dan",
         "poster_path": "https://image.tmdb.org/t/p/w500/6qfZAOEUFIrbUH3JvePclx1nXzz.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2024-10-04"
     },
     {
         "name": "Kaiju No. 8",
         "poster_path": "https://image.tmdb.org/t/p/w500/bJxGs0w5RAhaX4fIUQu511rvm0S.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2024-04-13"
     },
     {
         "name": "Mysterious Disappearances",
         "poster_path": "https://image.tmdb.org/t/p/w500/2S5ZCNmmio6wfXhmO9cZLEtzLL3.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2024-04-10"
     },
     {
         "name": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF",
         "poster_path": "https://image.tmdb.org/t/p/w500/fxzL2EWdiv19eZAoC8s7zuGCJG1.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2024-04-02"
     },
     {
         "name": "Undead Unluck",
         "poster_path": "https://image.tmdb.org/t/p/w500/pJYOYFlu4Vayz5xXJJuP7ViwHnT.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2023-10-07"
     },
     {
         "name": "Horimiya: The Missing Pieces",
         "poster_path": "https://image.tmdb.org/t/p/w500/aEJVHbXaC94y6thJ3nA6lBBnHjs.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2023-07-01"
+    },
+    {
+        "name": "Black Clover: Sword of the Wizard King",
+        "poster_path": "https://image.tmdb.org/t/p/w500/9YEGawvjaRgnyW6QVcUhFJPFDco.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2023-06-16"
     },
     {
         "name": "MASHLE: MAGIC AND MUSCLES",
         "poster_path": "https://image.tmdb.org/t/p/w500/yORTvQOQTZzZ9JRIpRH4QaIaQBm.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2023-04-08"
     },
     {
         "name": "Chainsaw Man",
         "poster_path": "https://image.tmdb.org/t/p/w500/npdB6eFzizki0WaZ1OvKcJrWe97.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2022-10-12"
     },
     {
         "name": "Lycoris Recoil",
         "poster_path": "https://image.tmdb.org/t/p/w500/hcPLwLGEU4alv9sOWvzSY4IorxV.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2022-07-02"
+    },
+    {
+        "name": "Fate/Grand Order Final Singularity – Grand Temple of Time: Solomon",
+        "poster_path": "https://image.tmdb.org/t/p/w500/rTpw3z1OJkRfCWlIDvS28TCcoXy.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2021-07-30"
+    },
+    {
+        "name": "Fate/Grand Order: Divine Realm of the Round Table - Camelot Paladin; Agateram",
+        "poster_path": "https://image.tmdb.org/t/p/w500/5GHW8hN8JAXDzid3WDoClz2App5.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2021-05-15"
     },
     {
         "name": "JUJUTSU KAISEN",
         "poster_path": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2020-10-03"
     },
     {
         "name": "Wandering Witch: The Journey of Elaina",
         "poster_path": "https://image.tmdb.org/t/p/w500/3HsDd9C0I2PWXjZiWJnwl7djm9z.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2020-10-02"
     },
     {
         "name": "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense.",
         "poster_path": "https://image.tmdb.org/t/p/w500/fdcMiknnRcmVgWb9wGS9TxE06cG.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2020-01-08"
     },
     {
         "name": "Darwin's Game",
         "poster_path": "https://image.tmdb.org/t/p/w500/dk5QFqxVt6WnTWTiK6hHdkL2SMz.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2020-01-04"
+    },
+    {
+        "name": "Saekano the Movie: Finale",
+        "poster_path": "https://image.tmdb.org/t/p/w500/jJKmT4ltysVdapJaNTexpcby96n.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2019-10-26"
     },
     {
         "name": "Demon Slayer: Kimetsu no Yaiba",
         "poster_path": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2019-04-06"
+    },
+    {
+        "name": "Psycho-Pass: Sinners of the System - Case.2 First Guardian",
+        "poster_path": "https://image.tmdb.org/t/p/w500/3Xm1hgIcmKJGnaMetErNu5kA8qz.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2019-02-15"
+    },
+    {
+        "name": "Psycho-Pass: Sinners of the System - Case.1 Crime and Punishment",
+        "poster_path": "https://image.tmdb.org/t/p/w500/qnG8ZcmQoncPB58RZwy3wofxm5y.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2019-01-25"
     },
     {
         "name": "The Promised Neverland",
         "poster_path": "https://image.tmdb.org/t/p/w500/oBgRCpAbtMpk1v8wfdsIph7lPQE.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2019-01-11"
     },
     {
         "name": "Dororo",
         "poster_path": "https://image.tmdb.org/t/p/w500/2qSzgSE80OFrfgg5UFYbATdCQ6t.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2019-01-07"
+    },
+    {
+        "name": "Made in Abyss: Journey's Dawn",
+        "poster_path": "https://image.tmdb.org/t/p/w500/exLf3eUR7705XwNYR6HFZAMObSR.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2019-01-04"
     },
     {
         "name": "Wotakoi: Love Is Hard for Otaku",
         "poster_path": "https://image.tmdb.org/t/p/w500/fpDesSzDRMFGIJbcuC2WVCveC2P.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2018-04-13"
+    },
+    {
+        "name": "Bungo Stray Dogs: Dead Apple",
+        "poster_path": "https://image.tmdb.org/t/p/w500/7ueB7Kxq2GObp5aDw6rsdzVefzP.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2018-03-03"
     },
     {
         "name": "Violet Evergarden",
         "poster_path": "https://image.tmdb.org/t/p/w500/61EwFPqc0r1uJo6la49J55F8bQ8.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2018-01-11"
     },
     {
         "name": "Teasing Master Takagi-san",
         "poster_path": "https://image.tmdb.org/t/p/w500/hKwpd9K5AXsDhcBhJ7hyP7iBJhN.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2018-01-08"
+    },
+    {
+        "name": "Fate/stay night: Heaven's Feel I. Presage Flower",
+        "poster_path": "https://image.tmdb.org/t/p/w500/6nEtmBg07DA5BWjcrmD49rxHsVQ.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2017-10-14"
     },
     {
         "name": "Just Because!",
         "poster_path": "https://image.tmdb.org/t/p/w500/ui3wsXyiRZCc2ONQhKPMHXYQ8sF.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2017-10-05"
     },
     {
         "name": "Black Clover",
         "poster_path": "https://image.tmdb.org/t/p/w500/kaMisKeOoTBPxPkbC3OW7Wgt6ON.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2017-10-03"
     },
     {
         "name": "Tsuredure Children",
         "poster_path": "https://image.tmdb.org/t/p/w500/aTxUzYlMAzmtmO1S8R99irHL2hi.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2017-07-04"
     },
     {
         "name": "Miss Kobayashi's Dragon Maid",
         "poster_path": "https://image.tmdb.org/t/p/w500/tNznuhcf7WKzEmPQEsIgGMrB3Az.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2017-01-12"
     },
     {
         "name": "Gabriel DropOut",
         "poster_path": "https://image.tmdb.org/t/p/w500/dS5dut05RFNi3fOCn6iO31Eag9x.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2017-01-09"
+    },
+    {
+        "name": "Assassination Classroom the Movie: 365 Days' Time",
+        "poster_path": "https://image.tmdb.org/t/p/w500/61gRLHlmI0pRXc7rfIo6BWiI5DJ.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2016-11-19"
     },
     {
         "name": "This Art Club Has a Problem!",
         "poster_path": "https://image.tmdb.org/t/p/w500/gCLhgNtu6rMWYAQIxMbgA47jWgW.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2016-07-08"
     },
     {
         "name": "Twin Star Exorcists",
         "poster_path": "https://image.tmdb.org/t/p/w500/dbGtsHEuV8zREyMEXmf5YFtUZyL.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2016-04-06"
     },
     {
         "name": "Re:ZERO -Starting Life in Another World-",
         "poster_path": "https://image.tmdb.org/t/p/w500/aRwmcX36r1ZpR5Xq5mmFcpUDQ8J.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2016-04-04"
+    },
+    {
+        "name": "Boruto: Naruto the Movie",
+        "poster_path": "https://image.tmdb.org/t/p/w500/1k6iwC4KaPvTBt1JuaqXy3noZRY.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2015-08-07"
     },
     {
         "name": "Overlord",
         "poster_path": "https://image.tmdb.org/t/p/w500/K8ZUjxaj9F0t3AwJDz8ypzBynM.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2015-07-07"
     },
     {
         "name": "Saekano: How to Raise a Boring Girlfriend",
         "poster_path": "https://image.tmdb.org/t/p/w500/GP7I1yKTp6giJz2fdy0LBWo4zV.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2015-01-16"
+    },
+    {
+        "name": "Psycho-Pass: The Movie",
+        "poster_path": "https://image.tmdb.org/t/p/w500/hUlhPosXp62uuTS0c2aINdg8cvV.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2015-01-09"
     },
     {
         "name": "Monthly Girls' Nozaki-kun",
         "poster_path": "https://image.tmdb.org/t/p/w500/xcgTRBwqou6QgvNh53viHFQeTsC.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2014-07-07"
     },
     {
         "name": "The Irregular at Magic High School",
         "poster_path": "https://image.tmdb.org/t/p/w500/4mJpMjdghHo4LfvmP1q1mubkEvl.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2014-04-06"
     },
     {
         "name": "Non Non Biyori",
         "poster_path": "https://image.tmdb.org/t/p/w500/jpa30hrY3LDdhV0AyJRhVg9sKpF.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2013-10-07"
     },
     {
         "name": "White Album 2",
         "poster_path": "https://image.tmdb.org/t/p/w500/bYl6hBOV3Bzb0uAV1mzZ9JnDl1z.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2013-10-06"
     },
     {
         "name": "Attack on Titan",
         "poster_path": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2013-04-07"
+    },
+    {
+        "name": "A Certain Magical Index: The Miracle of Endymion",
+        "poster_path": "https://image.tmdb.org/t/p/w500/vYfuVYLjVCgf09QdJIognRmGH6Z.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2013-02-23"
     },
     {
         "name": "K",
         "poster_path": "https://image.tmdb.org/t/p/w500/52eQfCm8yGEQHNZefyHr6uIysqt.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2012-10-05"
     },
     {
         "name": "Kuroko's Basketball",
         "poster_path": "https://image.tmdb.org/t/p/w500/qi8dlAgQEeahpEn1AOb5BJEOcVB.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2012-04-08"
     },
     {
         "name": "Accel World",
         "poster_path": "https://image.tmdb.org/t/p/w500/eNodkllQPCOrWlPCRfPUc9Deyo2.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2012-04-07"
     },
     {
         "name": "Haganai: I Don't Have Many Friends",
         "poster_path": "https://image.tmdb.org/t/p/w500/oaKPbowjQgbNgaQsTNBlU7e00FI.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2011-10-07"
     },
     {
         "name": "Hunter x Hunter",
         "poster_path": "https://image.tmdb.org/t/p/w500/i2EEr2uBvRlAwJ8d8zTG2Y19mIa.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2011-10-02"
     },
     {
         "name": "Beelzebub",
         "poster_path": "https://image.tmdb.org/t/p/w500/41QZ3NTTBY3nZcGrkIL1fXbDFBK.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2011-01-09"
+    },
+    {
+        "name": "One Piece: Strong World Episode 0",
+        "poster_path": "https://image.tmdb.org/t/p/w500/5m0FhjQdWhBS3nkRFKIfkwFt1Zc.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2010-04-24"
+    },
+    {
+        "name": "Death Note Relight 1: Visions of a God",
+        "poster_path": "https://image.tmdb.org/t/p/w500/qDhbGqjZ7yFwa7FMIzuiQTQMfEQ.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2009-09-23"
     },
     {
         "name": "Monogatari",
         "poster_path": "https://image.tmdb.org/t/p/w500/zCEjjb1NH3LLsWeZx47wOeqkezf.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2009-07-03"
     },
     {
         "name": "A Certain Magical Index",
         "poster_path": "https://image.tmdb.org/t/p/w500/v3Ka0J3iMte50oiH4cmXPISM3rm.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2008-10-05"
     },
     {
         "name": "Inazuma Eleven",
         "poster_path": "https://image.tmdb.org/t/p/w500/9kQWvBMPWz1gykKLXuX6JBjC9uQ.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2008-10-05"
     },
     {
         "name": "Toradora!",
         "poster_path": "https://image.tmdb.org/t/p/w500/jgLSYTAgjQgwBqLEw1bgr8vNxeK.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2008-10-02"
     },
     {
         "name": "Clannad",
         "poster_path": "https://image.tmdb.org/t/p/w500/jPBMYp4ddXkGJDSxxmaKBjzv2r3.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2007-10-05"
+    },
+    {
+        "name": "5 Centimeters per Second",
+        "poster_path": "https://image.tmdb.org/t/p/w500/dFipUR6W0y3PPkuVS8gjFd929m2.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2007-03-03"
     },
     {
         "name": "The Law of Ueki",
         "poster_path": "https://image.tmdb.org/t/p/w500/nry8XaWoKiqVz5hLkBfeFkxUQEe.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "2005-04-04"
+    },
+    {
+        "name": "Detective Conan: Magician of the Silver Sky",
+        "poster_path": "https://image.tmdb.org/t/p/w500/bozQR8pgW43WFI4VpV9vCgyXlDq.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2004-04-17"
+    },
+    {
+        "name": "One Piece: Curse of the Sacred Sword",
+        "poster_path": "https://image.tmdb.org/t/p/w500/fSqxVnjHE7zGAdWkhnQNYLJ2FUj.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "2004-03-06"
+    },
+    {
+        "name": "Detective Conan: The Last Wizard of the Century",
+        "poster_path": "https://image.tmdb.org/t/p/w500/q2v6JmGMVQR0UhUirXuuzXUcAnN.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "1999-04-17"
+    },
+    {
+        "name": "Detective Conan: The Time Bombed Skyscraper",
+        "poster_path": "https://image.tmdb.org/t/p/w500/5RB171WScK3nh4PqoRn8bj3iNLa.jpg",
+        "rating": 8.0,
+        "type": "Movie",
+        "first_air_date": "1997-04-19"
     },
     {
         "name": "Case Closed (Detective Conan)",
         "poster_path": "https://image.tmdb.org/t/p/w500/ibd5jpPu2oxup9ecU8xvwlRZF0O.jpg",
         "rating": 8.0,
+        "type": "TV",
         "first_air_date": "1996-01-08"
     },
     {
         "name": "Blue Box",
         "poster_path": "https://image.tmdb.org/t/p/w500/mVAWCCNBxPX3EUf9XhcFff4wW5V.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2024-10-03"
     },
     {
         "name": "Wistoria: Wand and Sword",
         "poster_path": "https://image.tmdb.org/t/p/w500/gxYKhO0GuPAeCb3llknWu53bYYS.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2024-07-07"
+    },
+    {
+        "name": "BLUE LOCK THE MOVIE -EPISODE NAGI-",
+        "poster_path": "https://image.tmdb.org/t/p/w500/yZYZqT1f6rddhiSdjl8NVVCoZKE.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2024-04-19"
     },
     {
         "name": "WIND BREAKER",
         "poster_path": "https://image.tmdb.org/t/p/w500/3kTFL3PAeTyS8gGZAh0iYG6NNjt.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2024-04-05"
     },
     {
         "name": "Solo Leveling",
         "poster_path": "https://image.tmdb.org/t/p/w500/geCRueV3ElhRTr0xtJuEWJt6dJ1.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2024-01-07"
     },
     {
         "name": "Delicious in Dungeon",
         "poster_path": "https://image.tmdb.org/t/p/w500/9t3DYdGxK3i4WRzKvIZwJd4kBnr.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2024-01-04"
     },
     {
         "name": "Dark Gathering",
         "poster_path": "https://image.tmdb.org/t/p/w500/4fSzalgBWLC52TGPGn91tNBoO0m.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2023-07-10"
     },
     {
         "name": "Undead Murder Farce",
         "poster_path": "https://image.tmdb.org/t/p/w500/tkbOrGOm6niFaRBCUFHcYPZy5dG.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2023-07-06"
     },
     {
         "name": "BLUE LOCK",
         "poster_path": "https://image.tmdb.org/t/p/w500/sTDTy73OYmKY51EK94Mc6AxogzR.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2022-10-09"
+    },
+    {
+        "name": "One Piece Film Red",
+        "poster_path": "https://image.tmdb.org/t/p/w500/m80kPdrmmtEh9wlLroCp0bwUGH0.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2022-08-06"
+    },
+    {
+        "name": "Detective Conan: The Scarlet Bullet",
+        "poster_path": "https://image.tmdb.org/t/p/w500/wowJzvF1KqEFSZoArkgngRy1r4L.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2021-04-16"
     },
     {
         "name": "Tokyo Revengers",
         "poster_path": "https://image.tmdb.org/t/p/w500/arB3L9pZZBSzUPSC8BEv8c3X0bF.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2021-04-11"
     },
     {
         "name": "The Way of the Househusband",
         "poster_path": "https://image.tmdb.org/t/p/w500/p63rAZt0s8kedJtdxGwD5VYZafc.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2021-04-08"
     },
     {
         "name": "Kemono Jihen",
         "poster_path": "https://image.tmdb.org/t/p/w500/vlEYvTnexLVEYGnX508DMwWGHYv.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2021-01-10"
     },
     {
         "name": "In/Spectre",
         "poster_path": "https://image.tmdb.org/t/p/w500/g97dzLKEtx9yFsOZcpAlXgYQCMY.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2020-01-12"
     },
     {
         "name": "ID: INVADED",
         "poster_path": "https://image.tmdb.org/t/p/w500/42mieA29Dtw1dBL5mNgZvvLmK8n.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2020-01-06"
+    },
+    {
+        "name": "Re:ZERO -Starting Life in Another World- The Frozen Bond",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ca2ZsUa4Qeik2IwlXFzV51hdxh0.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2019-11-08"
+    },
+    {
+        "name": "KONOSUBA – God's blessing on this wonderful world! Legend of Crimson",
+        "poster_path": "https://image.tmdb.org/t/p/w500/fv5BgcfkpWh3V6Pb1qVlXESBOdl.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2019-08-30"
+    },
+    {
+        "name": "Weathering with You",
+        "poster_path": "https://image.tmdb.org/t/p/w500/qgrk7r1fV4IjuoeiGS5HOhXNdLJ.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2019-07-19"
     },
     {
         "name": "Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note",
         "poster_path": "https://image.tmdb.org/t/p/w500/kKtYZGaIFuG7vztNdxkoBq324s0.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2019-07-07"
+    },
+    {
+        "name": "Psycho-Pass: Sinners of the System - Case.3 On the Other Side of Love and Hate",
+        "poster_path": "https://image.tmdb.org/t/p/w500/snAdedewKhxu1SU9ZUAh156Trlt.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2019-03-18"
+    },
+    {
+        "name": "Is It Wrong to Try to Pick Up Girls in a Dungeon?: Arrow of the Orion",
+        "poster_path": "https://image.tmdb.org/t/p/w500/78x3RRydNXvdB8BhJAwZz42g1Q1.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2019-02-15"
     },
     {
         "name": "SSSS.GRIDMAN",
         "poster_path": "https://image.tmdb.org/t/p/w500/4l9EA3CCn9BQi95Rj2xlj5PSZB.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2018-10-07"
     },
     {
         "name": "Sword Art Online Alternative: Gun Gale Online",
         "poster_path": "https://image.tmdb.org/t/p/w500/1EBk96E3cVVOEVlx2z744oEuFQk.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2018-04-08"
     },
     {
         "name": "Classroom of the Elite",
         "poster_path": "https://image.tmdb.org/t/p/w500/yuHanbUUIv2UWRxxQFt9n8jtmOJ.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2017-07-12"
+    },
+    {
+        "name": "Kuroko's Basketball the Movie: Last Game",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ubE93LnyHMWBc5R03sZSNE5x2Jy.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2017-03-18"
+    },
+    {
+        "name": "Sword Art Online: The Movie – Ordinal Scale",
+        "poster_path": "https://image.tmdb.org/t/p/w500/2szdEK0Mr0RG0nWGFVTseNQHbnP.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2017-02-18"
     },
     {
         "name": "Saga of Tanya the Evil",
         "poster_path": "https://image.tmdb.org/t/p/w500/5nwiHomKZBBF9DLrolfZapi3fDm.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2017-01-06"
+    },
+    {
+        "name": "Fate/Grand Order: First Order",
+        "poster_path": "https://image.tmdb.org/t/p/w500/3u9kOT50sUxGGfzcVjljlQXbt4p.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2016-12-31"
+    },
+    {
+        "name": "Your Name.",
+        "poster_path": "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2016-08-26"
+    },
+    {
+        "name": "One Piece Film: GOLD",
+        "poster_path": "https://image.tmdb.org/t/p/w500/9PgiOFTLZXP7emlwcIt0yRasJ9h.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2016-07-23"
     },
     {
         "name": "Anti-Magic Academy: The 35th Test Platoon",
         "poster_path": "https://image.tmdb.org/t/p/w500/8xbHgFPwQiWyf9mSj3cx9UD5xot.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2015-10-08"
     },
     {
         "name": "Beautiful Bones: Sakurako’s Investigation",
         "poster_path": "https://image.tmdb.org/t/p/w500/zZVY6Sx4mFOuWsWwOKXhyTrxYZy.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2015-10-08"
     },
     {
         "name": "Charlotte",
         "poster_path": "https://image.tmdb.org/t/p/w500/k4HvQUklsGE9ii9eBZIN1Y02Iyj.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2015-07-05"
     },
     {
         "name": "Food Wars! Shokugeki no Soma",
         "poster_path": "https://image.tmdb.org/t/p/w500/drteIrKPh0qaTYitGkxAOKoidsR.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2015-04-04"
     },
     {
         "name": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
         "poster_path": "https://image.tmdb.org/t/p/w500/h97iHupymkJXBv0gyr4qlePhKAk.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2015-04-04"
     },
     {
         "name": "Seraph of the End",
         "poster_path": "https://image.tmdb.org/t/p/w500/5IlxL2PfQ8CyY4TLRru9TcU56b3.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2015-04-04"
+    },
+    {
+        "name": "The Last: Naruto the Movie",
+        "poster_path": "https://image.tmdb.org/t/p/w500/bAQ8O5Uw6FedtlCbJTutenzPVKd.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2014-12-06"
     },
     {
         "name": "When Supernatural Battles Became Commonplace",
         "poster_path": "https://image.tmdb.org/t/p/w500/o0v3bMpC9u1ofg2uD439cr4j3et.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2014-10-07"
     },
     {
         "name": "The Seven Deadly Sins",
         "poster_path": "https://image.tmdb.org/t/p/w500/gxTojpKEOtue85EEFlozwRbDXwJ.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2014-10-05"
+    },
+    {
+        "name": "K: Missing Kings",
+        "poster_path": "https://image.tmdb.org/t/p/w500/jFDuJDeQylLwGN7yMOr3qSDZdQJ.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2014-07-12"
+    },
+    {
+        "name": "Detective Conan: The Sniper from Another Dimension",
+        "poster_path": "https://image.tmdb.org/t/p/w500/d08RKnmdcoCwlHOezazli8hmJH6.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2014-04-19"
     },
     {
         "name": "Guilty Crown",
         "poster_path": "https://image.tmdb.org/t/p/w500/sMUzeL5G8NkNpNhgPZPpauS7CYD.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2011-10-13"
     },
     {
         "name": "The Future Diary",
         "poster_path": "https://image.tmdb.org/t/p/w500/5MxOVu9eItgGZh4AQrtAnbZIsJr.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2011-10-09"
+    },
+    {
+        "name": "Detective Conan: Quarter of Silence",
+        "poster_path": "https://image.tmdb.org/t/p/w500/9bNsqXpPKSdcqPeBgWg9HsrwYJe.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2011-04-16"
+    },
+    {
+        "name": "Detective Conan: The Lost Ship in the Sky",
+        "poster_path": "https://image.tmdb.org/t/p/w500/kthV4ZwXO37pfCFTbX1cHOYie4r.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2010-04-17"
+    },
+    {
+        "name": "One Piece Film: Strong World",
+        "poster_path": "https://image.tmdb.org/t/p/w500/z9S39hH4IOX9Hmtn3zho3Wdqem8.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2009-12-12"
+    },
+    {
+        "name": "Detective Conan: The Raven Chaser",
+        "poster_path": "https://image.tmdb.org/t/p/w500/1rqrypnOq4cuwzobGW9gQgarkSr.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2009-04-18"
+    },
+    {
+        "name": "Detective Conan: Full Score of Fear",
+        "poster_path": "https://image.tmdb.org/t/p/w500/qxq2TfGy1Vfh9miCjKPo0nNxmW6.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2008-04-19"
     },
     {
         "name": "D.Gray-man",
         "poster_path": "https://image.tmdb.org/t/p/w500/txCtE7ToSLuG8sy8tAIh9q5JAYS.jpg",
         "rating": 7.0,
+        "type": "TV",
         "first_air_date": "2006-10-03"
+    },
+    {
+        "name": "Detective Conan: The Private Eyes' Requiem",
+        "poster_path": "https://image.tmdb.org/t/p/w500/4nWSBZBOP6NSGuBoGQEiIg03lJg.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2006-04-15"
+    },
+    {
+        "name": "Detective Conan: Crossroad in the Ancient Capital",
+        "poster_path": "https://image.tmdb.org/t/p/w500/lzPnHHhYWSMGwBLTDCIT6sgehF5.jpg",
+        "rating": 7.0,
+        "type": "Movie",
+        "first_air_date": "2003-04-19"
+    },
+    {
+        "name": "Case Closed: The Million-Dollar Pentagram",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ctboIRYQHYJMge6M6fgcwrhREsj.jpg",
+        "rating": 6.0,
+        "type": "Movie",
+        "first_air_date": "2024-04-12"
     },
     {
         "name": "Shangri-La Frontier",
         "poster_path": "https://image.tmdb.org/t/p/w500/aCGdpgNkgz66R1winFkTFsMAhlC.jpg",
         "rating": 6.0,
+        "type": "TV",
         "first_air_date": "2023-10-01"
     },
     {
         "name": "Ragna Crimson",
         "poster_path": "https://image.tmdb.org/t/p/w500/oGmNWwV3wgp1DZXTOLSAYZZgh3X.jpg",
         "rating": 6.0,
+        "type": "TV",
         "first_air_date": "2023-10-01"
     },
     {
         "name": "BanG Dream! It's MyGO!!!!!",
         "poster_path": "https://image.tmdb.org/t/p/w500/qXqu07NmCP1Ub49VUXZDsBLfwol.jpg",
         "rating": 6.0,
+        "type": "TV",
         "first_air_date": "2023-06-29"
     },
     {
         "name": "Mobile Suit Gundam: The Witch from Mercury",
         "poster_path": "https://image.tmdb.org/t/p/w500/gBkDlMaAVOVMRWWlRUHhkLAhNE3.jpg",
         "rating": 6.0,
+        "type": "TV",
         "first_air_date": "2022-10-02"
+    },
+    {
+        "name": "Detective Conan: The Bride of Halloween",
+        "poster_path": "https://image.tmdb.org/t/p/w500/zfsLhI6yAHH9pdhY6EConmUCumX.jpg",
+        "rating": 6.0,
+        "type": "Movie",
+        "first_air_date": "2022-04-15"
+    },
+    {
+        "name": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+        "poster_path": "https://image.tmdb.org/t/p/w500/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
+        "rating": 6.0,
+        "type": "Movie",
+        "first_air_date": "2020-10-16"
     },
     {
         "name": "Akudama Drive",
         "poster_path": "https://image.tmdb.org/t/p/w500/1s3fwsH3AjuyzObYHiptiYRgFa.jpg",
         "rating": 6.0,
+        "type": "TV",
         "first_air_date": "2020-10-08"
+    },
+    {
+        "name": "Case Closed: The Fist of Blue Sapphire",
+        "poster_path": "https://image.tmdb.org/t/p/w500/IkaZMxpOEFG9lk0T3fpDGAUv3.jpg",
+        "rating": 6.0,
+        "type": "Movie",
+        "first_air_date": "2019-04-12"
     },
     {
         "name": "Isekai Quartet",
         "poster_path": "https://image.tmdb.org/t/p/w500/clts5tTaabf4KebibgFQwcyLSkx.jpg",
         "rating": 6.0,
+        "type": "TV",
         "first_air_date": "2019-04-10"
+    },
+    {
+        "name": "The Irregular at Magic High School: The Girl Who Summons the Stars",
+        "poster_path": "https://image.tmdb.org/t/p/w500/iUttStQFPGp8rCXn7JYfC5IIlQF.jpg",
+        "rating": 6.0,
+        "type": "Movie",
+        "first_air_date": "2017-06-17"
     },
     {
         "name": "Grimoire of Zero",
         "poster_path": "https://image.tmdb.org/t/p/w500/hqjNMqv0Pj4idFHsr5wUQRyJ8rV.jpg",
         "rating": 6.0,
+        "type": "TV",
         "first_air_date": "2017-04-16"
     },
     {
         "name": "Kabaneri of the Iron Fortress",
         "poster_path": "https://image.tmdb.org/t/p/w500/a9lY3DCLU3DWvUshho6hAX2hKKh.jpg",
         "rating": 6.0,
+        "type": "TV",
         "first_air_date": "2016-04-08"
     },
     {
         "name": "Himouto! Umaru-chan",
         "poster_path": "https://image.tmdb.org/t/p/w500/5FQJOWJ0EyfICDKLWoKHAaDFnrU.jpg",
         "rating": 6.0,
+        "type": "TV",
         "first_air_date": "2015-07-09"
+    },
+    {
+        "name": "Haikyu!! the Movie: The End and the Beginning",
+        "poster_path": "https://image.tmdb.org/t/p/w500/5HlpuETjDOob8yzddD1MF7QwZwV.jpg",
+        "rating": 6.0,
+        "type": "Movie",
+        "first_air_date": "2015-07-03"
+    },
+    {
+        "name": "Detective Conan: Jolly Roger in the Deep Azure",
+        "poster_path": "https://image.tmdb.org/t/p/w500/3qiBRbIsfpw6O32TfD1FZ81MiKw.jpg",
+        "rating": 6.0,
+        "type": "Movie",
+        "first_air_date": "2007-04-21"
+    },
+    {
+        "name": "Detective Conan: Strategy Above the Depths",
+        "poster_path": "https://image.tmdb.org/t/p/w500/enhiUd7MOuLjKa4NkZmLaN7dDWH.jpg",
+        "rating": 6.0,
+        "type": "Movie",
+        "first_air_date": "2005-04-09"
+    },
+    {
+        "name": "Case Closed: Countdown to Heaven",
+        "poster_path": "https://image.tmdb.org/t/p/w500/1giFCODG6Bnik84NsyjHwvuX9Da.jpg",
+        "rating": 6.0,
+        "type": "Movie",
+        "first_air_date": "2001-04-21"
+    },
+    {
+        "name": "Case Closed: The Fourteenth Target",
+        "poster_path": "https://image.tmdb.org/t/p/w500/2W1FwcYpHarzO5GKBYucoGnDffA.jpg",
+        "rating": 6.0,
+        "type": "Movie",
+        "first_air_date": "1998-04-18"
     },
     {
         "name": "TASUKETSU -Fate of the Majority-",
         "poster_path": "https://image.tmdb.org/t/p/w500/jCnQloYIWCbSdP6oFyJR5VeHak0.jpg",
         "rating": 5.0,
+        "type": "TV",
         "first_air_date": "2024-07-03"
+    },
+    {
+        "name": "That Time I Got Reincarnated as a Slime the Movie: Scarlet Bond",
+        "poster_path": "https://image.tmdb.org/t/p/w500/xITip9n9uMAUA0TU6niMXU2tbh0.jpg",
+        "rating": 5.0,
+        "type": "Movie",
+        "first_air_date": "2022-11-25"
+    },
+    {
+        "name": "Detective Conan: The Darkest Nightmare",
+        "poster_path": "https://image.tmdb.org/t/p/w500/pXYeXuomi8EpXsXO4cvt5mdfSCD.jpg",
+        "rating": 5.0,
+        "type": "Movie",
+        "first_air_date": "2016-04-16"
+    },
+    {
+        "name": "Detective Conan: Sunflowers of Inferno",
+        "poster_path": "https://image.tmdb.org/t/p/w500/phTv5vD6nLCLrtUKWRHMBJGU7Bi.jpg",
+        "rating": 5.0,
+        "type": "Movie",
+        "first_air_date": "2015-04-18"
+    },
+    {
+        "name": "Detective Conan: Captured in Her Eyes",
+        "poster_path": "https://image.tmdb.org/t/p/w500/o0ta1yBaKQRjEWLhOU8jmE9TdGa.jpg",
+        "rating": 5.0,
+        "type": "Movie",
+        "first_air_date": "2000-04-22"
     },
     {
         "name": "Rokka: Braves of the Six Flowers",
         "poster_path": "https://image.tmdb.org/t/p/w500/ve6wy4KrcU7Lo6WuGb5Zqru3Ds.jpg",
         "rating": 3.0,
+        "type": "TV",
         "first_air_date": "2015-07-05"
     }
 ]

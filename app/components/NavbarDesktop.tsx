@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
 import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
@@ -8,24 +9,43 @@ const navItems = [
   { name: "Projects", href: "/projects" },
   { name: "About Me", href: "/about" },
   { name: "AnimeList", href: "/anime" },
-  { name: "Reference/Tools", href: "/reference" },
- 
+  { name: "Tools", href: "/tool" },
+
 ];
 
 export default function NavbarDesktop() {
   const pathname = usePathname();
+  const [visible, setVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  useEffect(() => {
+    const handleScroll = () => {
+      let timeoutId: NodeJS.Timeout;
+      const currentY = window.scrollY;
+      if (currentY > lastScrollY && currentY > 90) {
+        setVisible(false); // hide when scrolling down
+      } else {
+        setVisible(true); // show when scrolling up
+      }
+      setLastScrollY(currentY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 hidden md:block transition-all duration-300 backdrop-blur-lg bg-gradient-to-b from-black/20 to-transparent">
-      <div className="max-w-7xl mx-auto px-8">
-        <div className="flex items-center justify-between py-4">
+    <nav className={`fixed top-2 left-1/2 -translate-x-1/2 transform z-50 transition-all rounded-2xl flex content-center duration-500 ${visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
+      }`}>
+
+      <div className="max-w-6xl mx-auto px-8">
+        <div className="flex items-center justify-center py-4">
           {/* Brand */}
           <Link
             href="/"
             className="flex items-center gap-2 hover:scale-105 transition-transform duration-300"
           >
             <div className="text--accent text-2xl font-extrabold tracking-tight">
-              <span className="text--accent font-bold text-3xl tracking-tight">Avid</span>
+              <span className="text--accent font-bold text-3xl tracking-tight"></span>
             </div>
           </Link>
 
@@ -35,18 +55,17 @@ export default function NavbarDesktop() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`text-[20px] font-extrabold tracking-wide transition-all duration-200 ${
-                  pathname === item.href
+                className={`text-[20px] font-extrabold tracking-wide transition-all duration-200 ${pathname === item.href
                     ? "text-white border-b-2 border-pink-400 pb-1"
                     : "text-white/80 hover:text-pink-400"
-                }`}
+                  }`}
               >
                 {item.name}
               </Link>
             ))}
 
             {/* Search Box */}
-            <div className="relative ml-4">
+            <div className="relative ml-4 ">
               <input
                 type="text"
                 placeholder="Search..."

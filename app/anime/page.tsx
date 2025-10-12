@@ -50,7 +50,7 @@ export default function AnimePage() {
               <span className="bg-pink-500 text-white px-3 py-1 rounded-lg font-bold shadow">
                 Total: {animeList.length}
               </span>
-              <span className="bg-yellow-500 text-black px-3 py-1 rounded-lg font-bold shadow">
+              <span className="bg-[var(--accent)] text-black px-3 py-1 rounded-lg font-bold shadow">
                 Average Rating: {averageRating}
               </span>
             </div>
@@ -72,7 +72,7 @@ export default function AnimePage() {
                   <p className="text-gray-400 font-semibold mt-2">
                     {anime.type}
                   </p>
-                  <p className="text-yellow-400 font-bold mt-2">
+                  <p className="text-[var(--accent)] font-bold mt-2">
                     Rating: {anime.rating}
                   </p>
                 </div>

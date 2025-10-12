@@ -10,10 +10,9 @@ export default function HomePage({ posts }) {
       {/* Typewriter overlay inside hero */}
       <HeroPortal>
         <div className=" text-center text-white">
-          <h1 className="mb-4 drop-shadow-lg">
-            <h1 className="text-7xl font-bold pb-8">Kang's Blog</h1>
+          <h1 className="mb-4 drop-shadow-lg text-7xl font-bold pb-8">
+            Kang's Blog </h1>
             <Typewriter />
-          </h1>
         </div>
       </HeroPortal>
 

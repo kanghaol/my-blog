@@ -8,7 +8,7 @@ module.exports = {
     "./anime/**/*.{js,ts,jsx,tsx}",
     "./projects/**/*.{js,ts,jsx,tsx}",
     "./about/**/*.{js,ts,jsx,tsx}",
-    "./reference/**/*.{js,ts,jsx,tsx}",
+    "./tool/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
