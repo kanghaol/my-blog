@@ -1,8 +1,12 @@
 "use client"
 import HeroPortal from "@/app/components/HeroPortal";
 import SideCard from "@/app/components/SideCard";
+import { Icon } from "@iconify/react";
 
 export default function ProjectsPage() {
+    const techIcon = (name: string) => (
+    <Icon icon={name} className="text-4xl" color={"currentColor"} />
+    );
     return (
         <div>
             {/* --- Hero Section --- */}
@@ -22,7 +26,56 @@ export default function ProjectsPage() {
 
                     {/* Projects */}
                     <div className="flex flex-col gap-4 bg-transparent col-span-3 order-2">
-                        <div className=""></div>
+
+                        {/* Movie Recommendation System */}
+                        <div className="flex flex-col items-center gap-4 bg-[var(--card-bg)] border border-[var(--border-color)] rounded-xl p-4 text-[var(--text)] shadow-md mb-4">
+                            <video src="/Movie_Recommendation-demo.mp4" autoPlay muted loop></video>
+                            <div className="font-semibold text-xl text-center">
+                                🧠AI-powered Movie Recommender
+                            </div>
+                            <p className="text-center text-[var(--accent)]">
+                                Personalizes movie suggestions based on user taste.
+                            </p>
+                            <div className="flex flex-wrap justify-center gap-6 mt2">
+                                {techIcon("logos:pytorch-icon")}
+                                {techIcon("logos:flask")}
+                                {techIcon("logos:react")}
+                                {techIcon("logos:mongodb-icon")}
+                                {techIcon("logos:docker-icon")}
+                            </div>
+                        </div>
+
+                        {/* Schedule Sync */}
+                        <div className="flex flex-col items-center gap-4 bg-[var(--card-bg)] border border-[var(--border-color)] rounded-xl p-4 text-[var(--text)] shadow-md mb-4">
+                            <video src="/ScheduleSync-demo.mp4" autoPlay muted loop></video>
+                            <div className="font-semibold text-xl text-center">
+                                Schedule Sync - Queue Management Web App
+                            </div>
+                            <p className="text-center text-[var(--accent)]">
+                                Built for barbers and service shops managin customer queues.
+                            </p>
+                            <div className="flex flex-wrap justify-center gap-6 mt2">
+                                {techIcon("logos:react")}
+                                {techIcon("logos:php")}
+                                {techIcon("logos:mysql")}
+                            </div>
+                        </div>
+
+                        {/* Anime Pilgrimage App */}
+                        <div className="flex flex-col items-center gap-4 bg-[var(--card-bg)] border border-[var(--border-color)] rounded-xl p-4 text-[var(--text)] shadow-md mb-4">
+                            <img src="/AnimePilgrimagePreview.gif" alt="Anime Pilgrimage App"></img>
+                            <div className="font-semibold text-xl text-center">
+                                Anime Pilgrimage — Mobile App (In Development)
+                            </div>
+                            <p className="text-center text-[var(--accent)]">
+                                Discover and explore real world locations featured in your favorite anime series
+                            </p>
+                            <div className="flex flex-wrap justify-center gap-6 mt2">
+                                {techIcon("logos:react")}
+                                {techIcon("logos:java")}
+                                {techIcon("logos:spring-icon")}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
