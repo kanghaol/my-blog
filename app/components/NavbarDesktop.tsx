@@ -55,12 +55,16 @@ export default function NavbarDesktop() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`text-[20px] font-extrabold tracking-wide transition-all duration-200 ${pathname === item.href
-                    ? "text-white border-b-2 border-pink-400 pb-1"
-                    : "text-white/80 hover:text-pink-400"
+                className={`group relative text-[20px] font-extrabold tracking-wide text-white/80 hover:text-pink-400 transition-all duration-300 ${pathname === item.href ? "text-white" : ""
                   }`}
               >
                 {item.name}
+                <span
+                  className={`absolute left-0 bottom-0 h-[2px] bg-pink-400 transition-all duration-500 ease-in-out ${pathname === item.href
+                      ? "w-full"
+                      : "w-0 group-hover:w-1/2"
+                    }`}
+                ></span>
               </Link>
             ))}
 
