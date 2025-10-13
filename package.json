@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "clean": "rmdir /s /q node_modules && del package-lock.json && npm install"
   },
   "dependencies": {
     "@iconify/react": "^6.0.2",
