@@ -9,6 +9,7 @@ import rehypeRaw from "rehype-raw";
 import rehypeHighlight from "rehype-highlight";
 import regypeKatex from "rehype-katex";
 import SideCard from "./SideCard";
+import Image from "next/image";
 
 export default function BlogContent({ data, content }: any) {
   const articleRef = useRef<HTMLDivElement>(null);
@@ -44,7 +45,7 @@ export default function BlogContent({ data, content }: any) {
           {/* --- Thumbnail --- */}
           {data.thumbnail && (
             <div className="mb-6 mt-4">
-              <img
+              <Image
                 src={data.thumbnail}
                 alt={data.title}
                 className="w-full max-h-80 object-cover rounded-xl shadow-lg"

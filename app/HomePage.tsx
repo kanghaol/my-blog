@@ -2,8 +2,19 @@
 import Typewriter from "./components/Typewriter";
 import HeroPortal from "./components/HeroPortal";
 import SideCard from "./components/SideCard";
+import Image from "next/image";
 import Link from "next/link";
-export default function HomePage({ posts }) {
+
+type Post = {
+  slug: string;
+  title: string;
+  date: string;
+  tags: string[];
+  description: string;
+  thumbnail: string;
+};
+
+export default function HomePage({ posts }: { posts: Post[] }) {
 
   return (
     <>
@@ -11,7 +22,7 @@ export default function HomePage({ posts }) {
       <HeroPortal>
         <div className=" text-center text-white">
           <h1 className="mb-4 drop-shadow-lg text-7xl font-bold pb-8">
-            Kang's Blog </h1>
+            {"Kang's Blog"} </h1>
             <Typewriter />
         </div>
       </HeroPortal>
@@ -68,7 +79,7 @@ export default function HomePage({ posts }) {
                 </div>
 
                 <div className="rounded-xl overflow-hidden w-xl h-auto">
-                  <img src={post.thumbnail} alt={post.title} className="w-full object-cover hover:scale-[1.02] transition-transform duration-500" />
+                  <Image src={post.thumbnail} alt={post.title} className="w-full object-cover hover:scale-[1.02] transition-transform duration-500" width={800} height={800}/>
                 </div>
               </article>
             ))}

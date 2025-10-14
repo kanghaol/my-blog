@@ -1,7 +1,8 @@
 import { getAllPosts } from "@/lib/markdown";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
-
+import Image
+ from "next/image";
 export default function BlogFolder() {
   const posts = getAllPosts();
 
@@ -22,10 +23,12 @@ export default function BlogFolder() {
             href={`/blog/${post.slug}`}
             className="flex flex-col md:flex-row items-center gap-6 p-6 border border-[var(--border-color)] bg-[var(--card-bg)] rounded-xl shadow-sm hover:shadow-lg hover:scale-[1.02] transition-all duration-300"
           >
-            <img
+            <Image
               src={post.thumbnail}
               alt={post.title}
               className="w-40 h-28 object-cover rounded-lg border border-[var(--border-color)]"
+              width={800}
+              height={800}
             />
             <div className="flex flex-col">
               <h2 className="text-2xl font-bold text-[var(--text)]">{post.title}</h2>

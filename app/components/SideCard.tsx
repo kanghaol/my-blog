@@ -2,6 +2,7 @@
 import { siGithub } from "simple-icons";
 import { FaSteam, FaLinkedin, FaRegFilePdf} from "react-icons/fa";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function SideCard() {
     const [copied, setCopied] = useState(false);
@@ -17,7 +18,7 @@ export default function SideCard() {
                     <a href="/about/" className="relative group overflow-hidden active:scale-95 block lg:max-w-none lg:mt-0 lg:mx-0 max-w-[12rem] mb-3 mt-1 mx-auto rounded-xl" aria-label="Go to About Page">
                         <div className="relative overflow-hidden lg:mt-0 mx-auto h-full image-wrapper lg:w-full">
                             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition duration-500 ease-in-out pointer-events-none"></div>
-                            <img src="/icon.png" alt="icon" className="w-full h-full object-cover duration-500 ease-in-out transform group-hover:-translate-y-2" loading="eager" height="250" width="250" />
+                            <Image src="/icon.png" alt="icon" className="w-full h-full object-cover duration-500 ease-in-out transform group-hover:-translate-y-2" loading="eager" height="250" width="250" />
                         </div>
                     </a>
                     <div className="px-2 card-bg">
