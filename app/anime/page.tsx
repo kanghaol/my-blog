@@ -33,7 +33,7 @@ export default function AnimePage() {
           <h1 className="mb-4 drop-shadow-lg text-7xl font-bold pb-8">
             Anime List
           </h1>
-          <span className="text-4xl font-light">Record and Share</span>
+          <span className="text-4xl font-light">(づ｡◕‿‿◕｡)づ Record and Share</span>
         </div>
       </HeroPortal>
 

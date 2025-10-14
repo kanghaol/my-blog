@@ -2,7 +2,7 @@
 import Typewriter from "./components/Typewriter";
 import HeroPortal from "./components/HeroPortal";
 import SideCard from "./components/SideCard";
-
+import Link from "next/link";
 export default function HomePage({ posts }) {
 
   return (
@@ -23,24 +23,25 @@ export default function HomePage({ posts }) {
           {/* --- MAIN CONTENT --- */}
           <main className="flex flex-col gap-4 col-span-1 bg-transparent lg:col-span-3 md:col-span-4 md:order-2 order-1">
             <div className="grid sm:grid-cols-2 gap-4">
-              <div className="flex items-center gap-3 p-4 rounded-2xl bg-[var(--card-bg)] border border-neutral-300/40 shadow-sm hover:shadow-md hover:-translate-y-2 hover:translate-x-1 transition">
+              <Link href="/blog/folder" className="flex items-center gap-3 p-4 rounded-2xl bg-[var(--card-bg)] border border-neutral-300/40 shadow-sm hover:shadow-md hover:-translate-y-2 hover:translate-x-1 transition">
                 <div className="flex justify-center items-center w-10 h-10 rounded-full bg-pink-200/50 text-pink-600">
                   🗂️
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[var(--text)] ">Folder</h3>
-                  <p className="text-sm opacity-70">collection of all blog</p>
+                  <h3 className="font-semibold text-2xl text-[var(--text)] transition">Folder</h3>
+                  <p className="text-m text-xl">collection of all blog</p>
                 </div>
-              </div>
-              <div className="flex items-center gap-3 p-4 rounded-2xl bg-[var(--card-bg)] border border-neutral-300/40 shadow-sm hover:shadow-md hover:-translate-y-2 hover:translate-x-1 transition">
+              </Link>
+
+              <Link href="/blog/tags" className="flex items-center gap-3 p-4 rounded-2xl bg-[var(--card-bg)] border border-neutral-300/40 shadow-sm hover:shadow-md hover:-translate-y-2 hover:translate-x-1 transition">
                 <div className="flex justify-center items-center w-10 h-10 rounded-full bg-blue-200/50 text-blue-600">
                   🏷️
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[var(--text)  transition">Tags</h3>
-                  <p className="text-sm opacity-70">explore all the tags used</p>
+                  <h3 className="font-semibold text-2xl text-[var(--text)]  transition">Tags</h3>
+                  <p className="text-m text-xl">explore & search all the tags used</p>
                 </div>
-              </div>
+              </Link>
             </div>
 
             {/* --- Blog list section --- */}
@@ -54,11 +55,9 @@ export default function HomePage({ posts }) {
 
                 <div className="flex items-center gap-2 text-sm opacity-70 mb-3">
                   <span>🗓️ {post.date}</span>
-                  <span>•</span>
-                  <span>{post.tags.join(", ")}</span>
                 </div>
 
-                <p className="text-sm opacity-80 mb-4">{post.excerpt}</p>
+                <p className="text-sm opacity-80 mb-4">{post.description}</p>
 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {post.tags.map((tag) => (

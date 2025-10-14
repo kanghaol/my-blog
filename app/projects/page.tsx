@@ -13,7 +13,7 @@ export default function ProjectsPage() {
             <HeroPortal>
                 <div className="text-center text-white">
                     <h1 className="mb-4 drop-shadow-lg text-7xl font-bold pb-8">
-                        My Projects
+                        🧑‍💻Projects
                     </h1>
                     <span className="text-4xl font-light"></span>
                 </div>
@@ -49,7 +49,7 @@ export default function ProjectsPage() {
                         <div className="flex flex-col items-center gap-4 bg-[var(--card-bg)] border border-[var(--border-color)] rounded-xl p-4 text-[var(--text)] shadow-md mb-4">
                             <video src="/ScheduleSync-demo.mp4" autoPlay muted loop></video>
                             <div className="font-semibold text-xl text-center">
-                                Schedule Sync - Queue Management Web App
+                                📋Schedule Sync - Queue Management Web App
                             </div>
                             <p className="text-center text-[var(--accent)]">
                                 Built for barbers and service shops managin customer queues.
@@ -65,7 +65,7 @@ export default function ProjectsPage() {
                         <div className="flex flex-col items-center gap-4 bg-[var(--card-bg)] border border-[var(--border-color)] rounded-xl p-4 text-[var(--text)] shadow-md mb-4">
                             <img src="/AnimePilgrimagePreview.gif" alt="Anime Pilgrimage App"></img>
                             <div className="font-semibold text-xl text-center">
-                                Anime Pilgrimage — Mobile App (In Development)
+                                🗺️Anime Pilgrimage — Mobile App (🛠️In Development)
                             </div>
                             <p className="text-center text-[var(--accent)]">
                                 Discover and explore real world locations featured in your favorite anime series

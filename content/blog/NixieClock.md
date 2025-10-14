@@ -1,3 +1,15 @@
+---
+title: "NixieClock component"
+date: "2025-10-13"
+tags: ["react", "component", "clock"]
+description: "Nixie Clock React Component with tailwindcss"
+thumbnail: "/NixieClock.png"
+---
+
+This is my Nixie Clock React component, which uses Framer Motion and TailwindCSS.
+
+```tsx
+
 "use client";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";

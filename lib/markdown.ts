@@ -17,7 +17,7 @@ export function getAllPosts() {
       title: data.title || slug,
       date: data.date || "",
       tags: data.tags || [],
-      excerpt: data.excerpt || content.slice(0, 120) + "...",
+      description: data.description || content.slice(0, 120) + "...",
       thumbnail: data.thumbnail || "/notebook.jpg",
     };
   });

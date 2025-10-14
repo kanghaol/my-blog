@@ -1,5 +1,5 @@
 // app/page.tsx — Server Component
-import { getAllPosts } from "@/utils/markdown";
+import { getAllPosts } from "@/lib/markdown";
 import HomePage from "./HomePage";
 
 export default function Page() {

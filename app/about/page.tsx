@@ -13,7 +13,7 @@ export default function AboutMe(){
                 <h1 className="mb-4 drop-shadow-lg text-7xl font-bold pb-8">
                     About Me
                 </h1>
-                <span className="text-4xl font-light">An Person Who Loves Coding&Technology</span>
+                <span className="text-4xl font-light">✨An Person Who Loves Coding&Technology</span>
                 </div>
             </HeroPortal>
 

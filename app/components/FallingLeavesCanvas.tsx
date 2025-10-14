@@ -9,7 +9,7 @@ interface FallingLeavesProps {
 }
 
 export default function FallingLeavesCanvas({
-  count = 12,
+  count = 9,
   minSize = 0.8,
   maxSize = 1.4,
   fallSpeed = 0.5,
