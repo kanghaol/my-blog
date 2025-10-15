@@ -17,6 +17,13 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="preload" as="image" href="/background-house.webp" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className="relative bg-[var(--background)] text-[var(--text)] transition-colors duration-300">
         <FallingLeavesCanvas />
         <NavbarDesktop />

@@ -64,7 +64,7 @@ export default function ProjectsPage() {
 
                         {/* Anime Pilgrimage App */}
                         <div className="relative flex flex-col items-center gap-4 bg-[var(--card-bg)] border border-[var(--border-color)] rounded-xl p-4 text-[var(--text)] shadow-md mb-4">
-                            <Image src="/AnimePilgrimagePreview.gif" alt="Anime Pilgrimage App" height={600} width={400}/>
+                            <Image src="/AnimePilgrimagePreview.gif" alt="Anime Pilgrimage App" height={600} width={400} unoptimized />
                             <div className="font-semibold text-xl text-center">
                                 🗺️Anime Pilgrimage — Mobile App (🛠️In Development)
                             </div>
