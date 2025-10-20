@@ -18,7 +18,7 @@ export default function Tools() {
           icon: "https://www.google.com/s2/favicons?domain=flask.palletsprojects.com",
         },
         {
-          name: "daisyUI",
+          name: "daisy UI",
           url: "https://daisyui.com/components/",
           icon: "https://daisyui.com/favicon.ico",
         },
@@ -37,6 +37,21 @@ export default function Tools() {
           name: "Tinywow",
           url: "https://tinywow.com/",
           icon: "https://www.google.com/s2/favicons?domain=tinywow.com",
+        },
+        {
+          name:"Magic UI",
+          url:"https://magicui.design/docs/components",
+          icon:"https://magicui.design/favicon.ico",
+        },
+        {
+          name:"Aceternity UI",
+          url:"https://ui.aceternity.com/components",
+          icon:"https://ui.aceternity.com/favicon.ico",
+        },
+        {
+          name:"Cult UI",
+          url:"https://www.cult-ui.com/docs",
+          icon:"https://www.cult-ui.com/favicon.ico",
         },
         {
           name: "Iconify",
