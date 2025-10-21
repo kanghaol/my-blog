@@ -1,11 +1,12 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useDeferredValue} from "react";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 
 export default function BlogTagsClient({ posts }: { posts: any[] }) {
   const [query, setQuery] = useState("");
+  const deferredQuery = useDeferredValue(query);
 
   // Build tag dictionary
   const tagMap: Record<string, typeof posts> = {};
@@ -18,11 +19,11 @@ export default function BlogTagsClient({ posts }: { posts: any[] }) {
 
   // Filter tags
   const filteredTags = useMemo(() => {
-    const lower = query.toLowerCase();
+    const lower = deferredQuery.toLowerCase();
     return Object.entries(tagMap).filter(([tag]) =>
       tag.toLowerCase().includes(lower)
     );
-  }, [query, tagMap]);
+  }, [deferredQuery, tagMap]);
 
   return (
     <div className="w-full max-w-5xl mx-auto px-6 py-16">
