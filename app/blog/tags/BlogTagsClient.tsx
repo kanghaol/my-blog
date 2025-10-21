@@ -47,7 +47,7 @@ export default function BlogTagsClient({ posts }: { posts: any[] }) {
       
         <Link
           href="/"
-          className="relative top-4 right-4 flex items-end mb-10 ml-168 gap-2 px-3 py-1.5 rounded-lg bg-[var(--accent)]/10 border border-[var(--accent)] text-[var(--accent)] hover:bg-blue-200 hover:text-white transition-all duration-300 backdrop-blur-sm text-sm font-medium shadow-md"
+          className="relative flex mb-10 gap-2 px-3 py-1.5 rounded-lg bg-[var(--accent)]/10 border border-[var(--accent)] text-[var(--accent)] hover:bg-blue-200 hover:text-white transition-all duration-300 backdrop-blur-sm text-sm font-medium shadow-md"
         >
           <Icon icon="material-symbols:arrow-back-rounded" className="w-5 h-5" />
           Home

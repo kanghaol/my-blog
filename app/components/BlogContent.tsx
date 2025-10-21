@@ -9,7 +9,7 @@ import rehypeRaw from "rehype-raw";
 import rehypeHighlight from "rehype-highlight";
 import regypeKatex from "rehype-katex";
 import SideCard from "./SideCard";
-import Image from "next/image";
+
 
 export default function BlogContent({ data, content }: any) {
   const articleRef = useRef<HTMLDivElement>(null);
@@ -31,7 +31,7 @@ export default function BlogContent({ data, content }: any) {
         {/* --- Blog Article --- */}
         <article
           ref={articleRef}
-          className="relative col-span-3 order-2 bg-[var(--card-bg)] border border-[var(--border-color)] rounded-xl px-8 py-10 shadow-md overflow-hidden"
+          className="relative col-span-3 bg-[var(--card-bg)] border border-[var(--border-color)] rounded-xl px-8 py-10 shadow-md overflow-hidden"
         >
           {/* Back to Home Button */}
           <Link
@@ -45,7 +45,7 @@ export default function BlogContent({ data, content }: any) {
           {/* --- Thumbnail --- */}
           {data.thumbnail && (
             <div className="mb-6 mt-4">
-              <Image
+              <img
                 src={data.thumbnail}
                 alt={data.title}
                 className="w-full max-h-80 object-cover rounded-xl shadow-lg"

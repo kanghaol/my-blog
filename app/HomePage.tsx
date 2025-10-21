@@ -78,8 +78,15 @@ export default function HomePage({ posts }: { posts: Post[] }) {
                   ))}
                 </div>
 
-                <div className="rounded-xl overflow-hidden w-xl h-auto">
-                  <Image src={post.thumbnail} alt={post.title} className="w-full object-cover hover:scale-[1.02] transition-transform duration-500" width={800} height={800}/>
+                <div className="w-full max-w-3xl mx-auto rounded-xl overflow-hidden">
+                  <Image
+                    src={post.thumbnail}
+                    alt={post.title}
+                    width={800}
+                    height={450}
+                    className="w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
+                  />
                 </div>
               </article>
             ))}

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "./components/Footer";
 import FallingLeavesCanvas from "./components/FallingLeavesCanvas";
-import NavbarDesktop from "./components/NavbarDesktop";
+import Navbar from "./components/Navbar";
 import AnimatedHero from "./components/AnimatedHero";
 import NixieClock from "./components/NixieClock";
 
@@ -26,7 +26,7 @@ export default function RootLayout({
       </head>
       <body className="relative bg-[var(--background)] text-[var(--text)] transition-colors duration-300">
         <FallingLeavesCanvas />
-        <NavbarDesktop />
+        <Navbar />
 
         {/* hero + overlay root */}
         <div className="relative">
