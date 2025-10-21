@@ -6,6 +6,7 @@ import FallingLeavesCanvas from "./components/FallingLeavesCanvas";
 import Navbar from "./components/Navbar";
 import AnimatedHero from "./components/AnimatedHero";
 import NixieClock from "./components/NixieClock";
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -39,8 +40,9 @@ export default function RootLayout({
 
         {/* page content below the AnimatedHero */}
         <main className="relative z-10 justify-center items-center">
-          <NixieClock/>
+          <NixieClock />
           {children}
+          <Analytics />
         </main>
         <Footer />
       </body>
