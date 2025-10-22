@@ -28,7 +28,7 @@ export default function NixieClock() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: i * 0.05 }}
-          className="relative w-20 h-32 rounded-xl border border-[#5a2a00]/40 bg-gradient-to-b from-[#0a0a0a] to-[#1a0a00] shadow-[inset_0_0_20px_#ff660033,0_0_20px_#000] flex items-center justify-center overflow-hidden"
+          className="relative w-20 h-32 rounded-xl border bg-gradient-to-b from-[#0a0a0a] to-[#1a0a00] shadow-[inset_0_0_30px_#ff660033,0_0_30px_#000] flex items-center justify-center overflow-hidden"
         >
           <div className="absolute inset-0 bg-[#ff6600]/10 blur-xl rounded-xl animate-pulse opacity-60"></div>
 

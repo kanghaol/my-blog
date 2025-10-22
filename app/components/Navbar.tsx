@@ -39,7 +39,7 @@ export default function Navbar() {
     <nav className={`fixed top-2 left-1/2 -translate-x-1/2 transform z-50 transition-all rounded-2xl flex content-center duration-500 ${visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
       }`}>
 
-      <div className="rounded-2xl px-6 py-3 mx-auto">
+      <div className=" px-6 py-3">
         <div className="flex justify-center item-center">
 
           {/* Nav Links desktop*/}

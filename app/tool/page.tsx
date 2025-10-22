@@ -89,6 +89,11 @@ export default function Tools() {
           icon: "https://react.dev/favicon.ico",
         },
         {
+          name: "Motion",
+          url: "https://motion.dev/docs",
+          icon: "https://www.google.com/s2/favicons?domain=motion.dev",
+        },
+        {
           name: "NumPy",
           url: "https://numpy.org/doc/stable/user/index.html",
           icon: "https://www.google.com/s2/favicons?domain=numpy.org",
@@ -132,6 +137,11 @@ export default function Tools() {
           name: "NameCheap",
           url: "https://www.namecheap.com/",
           icon: "https://www.namecheap.com/favicon.ico",
+        },
+        {
+          name: "Vercel",
+          url: "https://vercel.com/",
+          icon: "https://vercel.com/favicon.ico",
         },
       ],
     },
