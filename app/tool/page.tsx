@@ -9,7 +9,7 @@ export default function Tools() {
       resources: [
         {
           name:"Expo",
-          url:"https://www.nativewind.dev/",
+          url:"https://docs.expo.dev/",
           icon: "https://www.google.com/s2/favicons?sz=32&domain=expo.dev",
         },
         {
