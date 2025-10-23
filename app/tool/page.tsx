@@ -8,6 +8,16 @@ export default function Tools() {
       title: "🧠 Development & Frameworks",
       resources: [
         {
+          name:"Expo",
+          url:"https://www.nativewind.dev/",
+          icon: "https://www.google.com/s2/favicons?sz=32&domain=expo.dev",
+        },
+        {
+          name:"Nativewind",
+          url:"https://www.nativewind.dev/",
+          icon:"https://www.google.com/s2/favicons?sz=32&domain=nativewind.dev",
+        },
+        {
           name: "TailwindCSS",
           url: "https://tailwindcss.com/",
           icon: "https://tailwindcss.com/favicon.ico",
@@ -15,7 +25,7 @@ export default function Tools() {
         {
           name: "Flask",
           url: "https://flask.palletsprojects.com/en/stable/api/",
-          icon: "https://www.google.com/s2/favicons?domain=flask.palletsprojects.com",
+          icon: "https://www.google.com/s2/favicons?sz=32&domain=flask.palletsprojects.com",
         },
         {
           name: "daisy UI",
@@ -36,7 +46,7 @@ export default function Tools() {
         {
           name: "Tinywow",
           url: "https://tinywow.com/",
-          icon: "https://www.google.com/s2/favicons?domain=tinywow.com",
+          icon: "https://www.google.com/s2/favicons?sz=32&domain=tinywow.com",
         },
         {
           name:"Magic UI",
@@ -66,7 +76,7 @@ export default function Tools() {
         {
           name: "Google Fonts",
           url: "https://fonts.google.com/",
-          icon: "https://www.google.com/s2/favicons?domain=fonts.google.com",
+          icon: "https://www.google.com/s2/favicons?sz=32&domain=fonts.google.com",
         },
         {
           name: "Wallhaven",
@@ -91,7 +101,7 @@ export default function Tools() {
         {
           name: "Motion",
           url: "https://motion.dev/docs",
-          icon: "https://www.google.com/s2/favicons?domain=motion.dev",
+          icon: "https://www.google.com/s2/favicons?sz=32&domain=motion.dev",
         },
         {
           name: "NumPy",
