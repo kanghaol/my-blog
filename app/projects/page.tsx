@@ -72,9 +72,10 @@ export default function ProjectsPage() {
                                 Discover and explore real world locations featured in your favorite anime series
                             </p>
                             <div className="flex flex-wrap justify-center gap-6 mt2">
+                                {techIcon("logos:expo")}
                                 {techIcon("logos:react")}
-                                {techIcon("logos:java")}
-                                {techIcon("logos:spring-icon")}
+                                {techIcon("logos:typescript-icon")}
+                                {techIcon("logos:express")}
                             </div>
                         </div>
                     </div>
