@@ -22,8 +22,16 @@ export default function HomePage({ posts }: { posts: Post[] }) {
       <HeroPortal>
         <div className=" text-center text-white">
           <h1 className="mb-4 drop-shadow-lg text-7xl font-bold pb-8">
-            {"Kang's Blog"} </h1>
-            <Typewriter />
+            {"Kang's Blog"} 
+          </h1>
+          <Typewriter phrases={[
+            "你好呀，欢迎来到这里!",
+            "Welcome to my website!",
+            "愿每一岁都能奔走在自己的热爱里",
+            "May your days be filled chasing what brings you joy",
+          ]}
+          pauseTime={1500}
+          />
         </div>
       </HeroPortal>
 
@@ -93,7 +101,7 @@ export default function HomePage({ posts }: { posts: Post[] }) {
           </main>
 
           {/* --- SIDEBAR --- */}
-          <SideCard/>
+          <SideCard />
         </div>
       </div>
     </>

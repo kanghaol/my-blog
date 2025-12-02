@@ -1,21 +1,20 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 
-const Typewriter: React.FC = () => {
+export default function Typewriter({
+  phrases,
+  typingSpeed = 60,
+  pauseTime,
+}: {
+  phrases: string[];
+  typingSpeed?: number;
+  pauseTime?: number;
+}) {
   const typewriterRef = useRef<HTMLSpanElement>(null);
   const phraseIndex = useRef(0);
   const charIndex = useRef(0);
   const [isClient, setIsClient] = useState(false);
 
-  const phrases = [
-    "你好呀，欢迎来到这里!",
-    "Welcome to my website!",
-    "愿每一岁都能奔走在自己的热爱里",
-    "May your days be filled chasing what brings you joy",
-  ];
-
-  const typingSpeed = 60;
-  const pauseTime = 1500;
   const erasingSpeed = typingSpeed / 2;
 
   const type = () => {
@@ -49,8 +48,7 @@ const Typewriter: React.FC = () => {
   };
 
   useEffect(() => {
-    // wait until after hydration before running animation
-    setIsClient(true);
+    setIsClient(true); // prevent hydration mismatch
   }, []);
 
   useEffect(() => {
@@ -63,6 +61,4 @@ const Typewriter: React.FC = () => {
       <span className="cursor-blink text-5xl">|</span>
     </div>
   );
-};
-
-export default Typewriter;
+}

@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import HeroPortal from "@/app/components/HeroPortal";
 import SideCard from "@/app/components/SideCard";
-
+import Typewriter from "../components/Typewriter";
 interface Anime {
   name: string;
   poster_path: string;
@@ -31,9 +31,15 @@ export default function AnimePage() {
       <HeroPortal>
         <div className="text-center text-white">
           <h1 className="mb-4 drop-shadow-lg text-7xl font-bold pb-8">
-            Anime List
+            Anime List (づ｡◕‿‿◕｡)づ
           </h1>
-          <span className="text-4xl font-light">(づ｡◕‿‿◕｡)づ Record and Share</span>
+          <Typewriter
+            phrases={[
+              "乡下的老鼠和城里的老鼠，你更喜欢哪个？-电锯人",
+              "吾王剑指所方，吾等心之所向。-Fate",
+              "木叶飞舞之处 火亦生生不息。-火影忍者",
+            ]} 
+            pauseTime={2000}/>
         </div>
       </HeroPortal>
 
