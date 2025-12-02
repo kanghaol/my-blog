@@ -5,7 +5,7 @@ import matter from "gray-matter";
 
 import HeroPortal from "@/app/components/HeroPortal";
 import Typewriter from "@/app/components/Typewriter";
-import BlogContent from "@/app/components/BlogContent"; 
+import BlogContent from "@/app/components/BlogContent";
 
 export async function generateStaticParams() {
     const postsDir = path.join(process.cwd(), "content/blog");
@@ -28,8 +28,14 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                     <h1 className="mb-4 drop-shadow-lg text-6xl font-bold pb-8">
                         Kang's Blog
                     </h1>
-                    <Typewriter />
-
+                    <Typewriter phrases={[
+                        "你好呀，欢迎来到这里!",
+                        "Welcome to my website!",
+                        "愿每一岁都能奔走在自己的热爱里",
+                        "May your days be filled chasing what brings you joy",
+                    ]}
+                    pauseTime={1500}
+                    />
                 </div>
             </HeroPortal>
 
