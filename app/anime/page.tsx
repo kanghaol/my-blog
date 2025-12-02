@@ -12,6 +12,14 @@ interface Anime {
 
 export default function AnimePage() {
   const [animeList, setAnimeList] = useState<Anime[]>([]);
+  const [copiedIndex, setCopied] = useState<number | null> (null);
+
+  const handleCopy = (text: string, i: number) => {
+    navigator.clipboard.writeText(text);
+    setCopied(i);
+
+    setTimeout(() => setCopied(null), 1300);
+  };
 
   useEffect(() => {
     fetch("/tmdb_sorted_combined.json") 
@@ -65,9 +73,10 @@ export default function AnimePage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {animeList.map((anime, i) => (
               <div key={i} className="col-span-1 bg-[var(--card-bg)] rounded-xl shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300 border border-[var(--border-color)]">
-                <div className="relative group">
+                <div className="relative group cursor-pointer" onClick={() => handleCopy(anime.name, i)}>
                   <img src={anime.poster_path} alt={anime.name} className="w-full h-[280px] object-cover group-hover:opacity-90 transition-all"/>
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+                    <span className="text-white text-2xl font-bold ">{copiedIndex === i ? "Copied!" : "Click to copy title"}</span>
                   </div>
                 </div>
 
