@@ -128,12 +128,12 @@ export default function CourseTimeline() {
 
   return (
     <section className="w-full max-w-4xl mx-auto px-6 py-10 relative">
-      <h2 className="text-4xl font-bold text-center mb-12 text-[var(--accent)] drop-shadow-md">
+      <h2 className="text-4xl font-bold text-center mb-12 text-(--accent) drop-shadow-md">
         Coursework Timeline
       </h2>
 
       {/* Vertical timeline line */}
-      <div className="absolute left-1/2 transform -translate-x-1/2 top-24 bottom-12 w-1 bg-[var(--border-color)] rounded-full"></div>
+      <div className="absolute left-1/2 transform -translate-x-1/2 top-24 bottom-12 w-1 bg-(--border-color) rounded-full"></div>
 
       <div className="space-y-20 relative z-10">
         {semesters.map((semester, i) => {
@@ -147,11 +147,11 @@ export default function CourseTimeline() {
             >
               {/* Content Card */}
               <div
-                className={`bg-[var(--card-bg)] border border-[var(--border-color)] rounded-xl shadow-md backdrop-blur-md p-5 w-full md:w-5/12 hover:scale-[1.02] transition-transform duration-300 ${
+                className={`bg-(--card-bg) border border-(--border-color) rounded-xl shadow-md backdrop-blur-md p-5 w-full md:w-5/12 hover:scale-[1.02] transition-transform duration-300 ${
                   isLeft ? "md:mr-auto" : "md:ml-auto"
                 }`}
               >
-                <h3 className="text-xl font-bold text-[var(--text)] mb-2 text-center md:text-left">
+                <h3 className="text-xl font-bold text-(--text) mb-2 text-center md:text-left">
                   {semester.term}
                 </h3>
                 <div className="flex justify-center md:justify-start mb-4">
@@ -167,10 +167,10 @@ export default function CourseTimeline() {
                 <ul className="space-y-3">
                   {semester.courses.map((course, j) => (
                     <li key={j}>
-                      <p className="font-semibold text-[var(--text)]">
+                      <p className="font-semibold text-(--text)">
                         {course.code} - {course.title}
                       </p>
-                      <p className="text-sm text-[var(--text)]/70 leading-snug">
+                      <p className="text-sm text-(--text)/70 leading-snug">
                         {course.desc}
                       </p>
                     </li>
@@ -179,7 +179,7 @@ export default function CourseTimeline() {
               </div>
 
               {/* Timeline dot */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 bg-[var(--accent)] h-4 w-4 rounded-full shadow-lg shadow-[var(--accent)]/50"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 bg-(--accent) h-4 w-4 rounded-full shadow-lg shadow-(--accent)/50"></div>
             </div>
           );
         })}

@@ -23,7 +23,7 @@ export default function BlogContent({ data, content }: any) {
   }, []);
 
   return (
-    <div className="w-full flex-grow max-w-6xl mx-auto pt-8 pb-16 relative">
+    <div className="w-full grow max-w-6xl mx-auto pt-8 pb-16 relative">
       {/* Grid layout: SideCard + Article */}
       <div className="grid lg:grid-cols-4 md:grid-cols-5 grid-cols-1 gap-6 px-4">
         <SideCard />
@@ -31,12 +31,12 @@ export default function BlogContent({ data, content }: any) {
         {/* --- Blog Article --- */}
         <article
           ref={articleRef}
-          className="relative col-span-3 bg-[var(--card-bg)] border border-[var(--border-color)] rounded-xl px-8 py-10 shadow-md overflow-hidden"
+          className="relative col-span-3 bg-(--card-bg) border border-(--border-color) rounded-xl px-8 py-10 shadow-md overflow-hidden"
         >
           {/* Back to Home Button */}
           <Link
             href="/"
-            className="absolute top-4 right-4 flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[var(--accent)]/10 border border-[var(--accent)] text-[var(--accent)] hover:bg-blue-200 hover:text-white transition-all duration-300 backdrop-blur-sm text-sm font-medium shadow-md"
+            className="absolute top-4 right-4 flex items-center gap-2 px-3 py-1.5 rounded-lg bg-(--accent)/10 border border-(--accent) text-(--accent) hover:bg-blue-200 hover:text-white transition-all duration-300 backdrop-blur-sm text-sm font-medium shadow-md"
           >
             <Icon icon="material-symbols:arrow-back-rounded" className="w-5 h-5" />
             Home
@@ -54,7 +54,7 @@ export default function BlogContent({ data, content }: any) {
           )}
 
           {/* Post Header */}
-          <h1 className="text-3xl font-bold mb-4 text-[var(--text)]">{data.title}</h1>
+          <h1 className="text-3xl font-bold mb-4 text-(--text)">{data.title}</h1>
           <p className="text-sm text-gray-500 mb-6">
             🗓️ {data.date} • {data.tags?.join(", ")}
           </p>
@@ -73,7 +73,7 @@ export default function BlogContent({ data, content }: any) {
             {/* Back to Folder */}
             <Link
               href="/blog/folder"
-              className="relative top-4 right-4 flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[var(--accent)]/10 border border-[var(--accent)] text-[var(--accent)] hover:bg-blue-200 hover:text-white transition-all duration-300 backdrop-blur-sm text-sm font-medium shadow-md"
+              className="relative top-4 right-4 flex items-center gap-2 px-3 py-1.5 rounded-lg bg-(--accent)/10 border border-(--accent) text-(--accent) hover:bg-blue-200 hover:text-white transition-all duration-300 backdrop-blur-sm text-sm font-medium shadow-md"
             >
               <Icon icon="material-symbols:arrow-back-rounded" className="w-5 h-5" />
               🗂️Blog Folder
@@ -81,7 +81,7 @@ export default function BlogContent({ data, content }: any) {
             {/* Back to tags */}
             <Link
               href="/blog/tags"
-              className="relative top-4 right-4 flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[var(--accent)]/10 border border-[var(--accent)] text-[var(--accent)] hover:bg-blue-200 hover:text-white transition-all duration-300 backdrop-blur-sm text-sm font-medium shadow-md"
+              className="relative top-4 right-4 flex items-center gap-2 px-3 py-1.5 rounded-lg bg-(--accent)/10 border border-(--accent) text-(--accent) hover:bg-blue-200 hover:text-white transition-all duration-300 backdrop-blur-sm text-sm font-medium shadow-md"
             >
               🏷️Tags
               <Icon icon="material-symbols:arrow-forward-rounded" className="w-5 h-5" />

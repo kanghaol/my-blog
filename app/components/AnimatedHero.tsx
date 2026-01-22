@@ -29,7 +29,7 @@ export default function AnimatedHero() {
 
       {/* Next image layer (fade in) */}
       <div
-        className={`absolute inset-0 transition-opacity duration-[2000ms] ${
+        className={`absolute inset-0 transition-opacity duration-2000ms ${
           isFading ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -45,7 +45,7 @@ export default function AnimatedHero() {
 
       {/* Current image layer (fade out) */}
       <div
-        className={`absolute inset-0 transition-opacity duration-[2000ms] ${
+        className={`absolute inset-0 transition-opacity duration-2000ms ${
           isFading ? "opacity-0" : "opacity-100"
         }`}
       >
@@ -60,7 +60,7 @@ export default function AnimatedHero() {
       </div>
 
       {/* Overlay gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0b0b0b]/50 to-[#0b0b0b]" />
+      <div className="absolute inset-0 bg-linear-to-b from-transparent via-[#0b0b0b]/50 to-[#0b0b0b]" />
     </div>
   );
 }

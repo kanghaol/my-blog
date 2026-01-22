@@ -14,8 +14,8 @@ export default function SideCard() {
     return (
         <aside className="md:top-4 bg-transparent col-span-1 md:order-1 order-2">
             <div className="relative mb-4">
-                <div className="mb-4 p-3 bg-[var(--card-bg)] border border-neutral-300/40 shadow-md rounded-xl transition">
-                    <a href="/about/" className="relative group overflow-hidden active:scale-95 block lg:max-w-none lg:mt-0 lg:mx-0 max-w-[12rem] mb-3 mt-1 mx-auto rounded-xl" aria-label="Go to About Page">
+                <div className="mb-4 p-3 bg-(--card-bg) border border-neutral-300/40 shadow-md rounded-xl transition">
+                    <a href="/about/" className="relative group overflow-hidden active:scale-95 block lg:max-w-none lg:mt-0 lg:mx-0 max-w-48 mb-3 mt-1 mx-auto rounded-xl" aria-label="Go to About Page">
                         <div className="relative overflow-hidden lg:mt-0 mx-auto h-full image-wrapper lg:w-full">
                             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition duration-500 ease-in-out pointer-events-none"></div>
                             <Image src="/icon.png" alt="icon" className="w-full h-full object-cover duration-500 ease-in-out transform group-hover:-translate-y-2" loading="eager" height="250" width="250" />
@@ -23,13 +23,13 @@ export default function SideCard() {
                     </a>
                     <div className="px-2 card-bg">
                         <div></div>
-                        <div className="text-xl font-bold text-[var(--text)] mb-1 text-center transition hover:scale-105 hover:text-[var(--accent)]">
+                        <div className="text-xl font-bold text-(--text) mb-1 text-center transition hover:scale-105 hover:text-(--accent)">
                             Kang
                         </div>
-                        <div className="text-center font-bold transition bg-clip-text bg-gradient-to-r from-pink-300 to-blue-400 text-transparent hover:from-blue-400 hover:to-pink-300 hover:scale-105 mb-2.5 tracking-wide">
+                        <div className="text-center font-bold transition bg-clip-text bg-linear-to-r from-pink-300 to-blue-400 text-transparent hover:from-blue-400 hover:to-pink-300 hover:scale-105 mb-2.5 tracking-wide">
                             <span>{"(＾-＾)つロ Cheers~"}</span>
                         </div>
-                        <div className="mt-4 border-t border-[var(--border-color)] pt-3">
+                        <div className="mt-4 border-t border-(--border-color) pt-3">
                             <div className="flex justify-center gap-6 flex-wrap">
 
                                 {/* GitHub */}
@@ -51,12 +51,12 @@ export default function SideCard() {
                                 </a>
 
                                 {/* Resume */}
-                                <a href="/KangHao_Lin_Resume.pdf" download aria-label="Download Resume" className="hover:scale-110 transition-transform">
-                                    <FaRegFilePdf  className="w-6 h-6 hover:text-[var(--accent)] hover:drop-shadow-[0_0_5px_#f97316] transition-color"/>
+                                <a href="/KangHao_Lin_Resume_0126.pdf" download aria-label="Download Resume" className="hover:scale-110 transition-transform">
+                                    <FaRegFilePdf  className="w-6 h-6 hover:text-(--accent) hover:drop-shadow-[0_0_5px_#f97316] transition-color"/>
                                 </a>
                                 
                                 <button onClick={handleCopy} aria-label="Copy Gmail to clipboard" className="hover:scale-110 transition-transform focus:outline-none">
-                                    <span className="text-[var(--accent)] hover:drop-shadow-[0_0_5px_#f97316] transition-color">
+                                    <span className="text-(--accent) hover:drop-shadow-[0_0_5px_#f97316] transition-color">
                                         Kanghaolin2002@gmail.com
                                     </span>
                                 </button>

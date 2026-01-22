@@ -53,7 +53,7 @@ export default function Navbar() {
               >
                 {item.name}
                 <span
-                  className={`absolute left-0 bottom-0 h-[2px] bg-pink-400 transition-all duration-500 ease-in-out ${pathname === item.href
+                  className={`absolute left-0 bottom-0 h-0.5 bg-pink-400 transition-all duration-500 ease-in-out ${pathname === item.href
                       ? "w-full"
                       : "w-0 group-hover:w-1/2"
                     }`}

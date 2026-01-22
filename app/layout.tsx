@@ -25,7 +25,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="relative bg-[var(--background)] text-[var(--text)] transition-colors duration-300">
+      <body className="relative bg-(--background) text-(--text) transition-colors duration-300">
         <FallingLeavesCanvas />
         <Navbar />
 

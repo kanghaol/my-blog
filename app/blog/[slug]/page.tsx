@@ -22,7 +22,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     const { data, content } = matter(file);
 
     return (
-        <div className="min-h-screen bg-[var(--background)]">
+        <div className="min-h-screen bg-(--background)">
             <HeroPortal>
                 <div className="text-center text-white">
                     <h1 className="mb-4 drop-shadow-lg text-6xl font-bold pb-8">

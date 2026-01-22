@@ -172,7 +172,7 @@ export default function Tools() {
       </HeroPortal>
 
       {/* --- Main Content --- */}
-      <div className="w-full flex-grow max-w-7xl mx-auto pt-12 pb-16 px-4">
+      <div className="w-full grow max-w-7xl mx-auto pt-12 pb-16 px-4">
         <div className="grid lg:grid-cols-4 md:grid-cols-5 grid-cols-1 gap-6">
           {/* Left Sidebar */}
           <SideCard />
@@ -182,9 +182,9 @@ export default function Tools() {
             {categories.map((category) => (
               <div
                 key={category.title}
-                className="bg-[var(--card-bg)] border border-[var(--border-color)] rounded-xl shadow-lg p-6"
+                className="bg-(--card-bg) border border-(--border-color) rounded-xl shadow-lg p-6"
               >
-                <h2 className="text-2xl font-bold text-[var(--accent)] mb-4">
+                <h2 className="text-2xl font-bold text-(--accent) mb-4">
                   {category.title}
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -194,14 +194,14 @@ export default function Tools() {
                       href={url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-4 p-3 rounded-lg hover:bg-[var(--background)]/40 hover:scale-105 hover:shadow-lg transition-all duration-300"
+                      className="flex items-center gap-4 p-3 rounded-lg hover:bg-(--background)/40 hover:scale-105 hover:shadow-lg transition-all duration-300"
                     >
                       <img
                         src={icon}
                         alt={`${name} logo`}
                         className="w-8 h-8 rounded-md"
                       />
-                      <span className="text-[var(--text)] text-sm font-medium">
+                      <span className="text-(--text) text-sm font-medium">
                         {name}
                       </span>
                     </a>

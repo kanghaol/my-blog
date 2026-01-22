@@ -29,7 +29,7 @@ export default function BlogTagsClient({ posts }: { posts: any[] }) {
     <div className="w-full max-w-5xl mx-auto px-6 py-16">
       {/* Title + Search */}
       <div className="flex items-center justify-between flex-wrap gap-4 mb-8">
-        <h1 className="text-4xl font-bold text-[var(--accent)]">🏷️ Tags</h1>
+        <h1 className="text-4xl font-bold text-(--accent)">🏷️ Tags</h1>
 
         <div className="relative w-full sm:w-80">
           <Icon
@@ -41,14 +41,14 @@ export default function BlogTagsClient({ posts }: { posts: any[] }) {
             placeholder="Search tags..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            className="w-full pl-10 pr-4 py-2 rounded-lg border border-[var(--border-color)] bg-[var(--card-bg)] text-[var(--text)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] transition-all"
+            className="w-full pl-10 pr-4 py-2 rounded-lg border border-(--border-color) bg-(--card-bg) text-(--text) focus:outline-none focus:ring-2 focus:ring-(--accent) transition-all"
           />
         </div>
       </div>
       
         <Link
           href="/"
-          className="relative flex mb-10 gap-2 px-3 py-1.5 rounded-lg bg-[var(--accent)]/10 border border-[var(--accent)] text-[var(--accent)] hover:bg-blue-200 hover:text-white transition-all duration-300 backdrop-blur-sm text-sm font-medium shadow-md"
+          className="relative flex mb-10 gap-2 px-3 py-1.5 rounded-lg bg-(--accent)/10 border border-(--accent) text-(--accent) hover:bg-blue-200 hover:text-white transition-all duration-300 backdrop-blur-sm text-sm font-medium shadow-md"
         >
           <Icon icon="material-symbols:arrow-back-rounded" className="w-5 h-5" />
           Home
@@ -62,8 +62,8 @@ export default function BlogTagsClient({ posts }: { posts: any[] }) {
 
         {filteredTags.map(([tag, posts]) => (
           <div key={tag}>
-            <h2 className="text-2xl font-semibold text-[var(--text)] mb-4 flex items-center gap-2">
-              <Icon icon="mdi:tag" className="text-[var(--accent)]" /> #{tag}
+            <h2 className="text-2xl font-semibold text-(--text) mb-4 flex items-center gap-2">
+              <Icon icon="mdi:tag" className="text-(--accent)" /> #{tag}
               <span className="text-sm text-gray-500 font-normal">
                 ({posts.length})
               </span>
@@ -74,15 +74,15 @@ export default function BlogTagsClient({ posts }: { posts: any[] }) {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="flex items-center gap-4 p-4 border border-[var(--border-color)] bg-[var(--card-bg)] rounded-lg hover:bg-[var(--accent)]/5 hover:scale-[1.02] transition-all duration-300"
+                  className="flex items-center gap-4 p-4 border border-(--border-color) bg-(--card-bg) rounded-lg hover:bg-(--accent)/5 hover:scale-[1.02] transition-all duration-300"
                 >
                   <img
                     src={post.thumbnail}
                     alt={post.title}
-                    className="w-20 h-14 object-cover rounded border border-[var(--border-color)]"
+                    className="w-20 h-14 object-cover rounded border border-(--border-color)"
                   />
                   <div>
-                    <p className="font-semibold text-[var(--text)]">{post.title}</p>
+                    <p className="font-semibold text-(--text)">{post.title}</p>
                     <p className="text-sm text-gray-500">🗓️ {post.date}</p>
                   </div>
                 </Link>

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function MapleLeafLoader() {
   return (
-    <div className="fixed inset-0 flex flex-col items-center justify-center bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] text-white z-[9999]">
+    <div className="fixed inset-0 flex flex-col items-center justify-center bg-linear-to-b from-[#1a1a1a] to-[#0d0d0d] text-white z-9999">
 
       {/* Center Leaf */}
       <motion.div

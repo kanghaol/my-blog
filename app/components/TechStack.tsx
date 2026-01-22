@@ -22,10 +22,10 @@ const techStack = [
 
 export default function TechStack() {
   return (
-    <section className="max-w-6xl mx-auto py-8 bg-[var(--card-bg)] border border-[var(--border-color)] rounded-xl p-4 text-[var(--text)] shadow-md">
+    <section className="max-w-6xl mx-auto py-8 bg-(--card-bg) border border-(--border-color) rounded-xl p-4 text-(--text) shadow-md">
       {/* Section Header */}
-      <h2 className="text-3xl font-bold mb-10 flex items-center gap-3 text-[var(--text)]">
-        <span className="text-2xl font-mono text-[var(--accent)] px-1 rounded">&lt;/&gt;Tech Stack</span>
+      <h2 className="text-3xl font-bold mb-10 flex items-center gap-3 text-(--text)">
+        <span className="text-2xl font-mono text-(--accent) px-1 rounded">&lt;/&gt;Tech Stack</span>
       </h2>
 
       {/* Tech Grid */}
@@ -33,14 +33,14 @@ export default function TechStack() {
         {techStack.map((tech) => (
           <div
             key={tech.name}
-            className="flex flex-col items-center justify-center p-5 rounded-xl bg-[var(--card-bg)] border border-[var(--border-color)] shadow-md hover:shadow-pink-400/20 hover:scale-105 transition-all duration-300"
+            className="flex flex-col items-center justify-center p-5 rounded-xl bg-(--card-bg) border border-(--border-color) shadow-md hover:shadow-pink-400/20 hover:scale-105 transition-all duration-300"
           >
             <Icon
               icon={tech.icon}
               className="text-5xl mb-3 transition-transform duration-300 hover:rotate-6"
               color={tech.color}
             />
-            <span className="text-lg font-semibold text-[var(--text)]">{tech.name}</span>
+            <span className="text-lg font-semibold text-(--text)">{tech.name}</span>
           </div>
         ))}
       </div>

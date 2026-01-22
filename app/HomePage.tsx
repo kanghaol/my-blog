@@ -36,28 +36,28 @@ export default function HomePage({ posts }: { posts: Post[] }) {
       </HeroPortal>
 
       {/* Main layout */}
-      <div className="w-full flex-grow max-w-6xl mx-auto bg-[var(--background)]">
+      <div className="w-full grow max-w-6xl mx-auto bg-(--background)">
         <div className="gap-4 grid lg:grid-cols-4 grid-cols-1 h-full md:grid-cols-5 pb-4 px-4 pt-6">
 
           {/* --- MAIN CONTENT --- */}
           <main className="flex flex-col gap-4 col-span-1 bg-transparent lg:col-span-3 md:col-span-4 md:order-2 order-1">
             <div className="grid sm:grid-cols-2 gap-4">
-              <Link href="/blog/folder" className="flex items-center gap-3 p-4 rounded-2xl bg-[var(--card-bg)] border border-neutral-300/40 shadow-sm hover:shadow-md hover:-translate-y-2 hover:translate-x-1 transition">
+              <Link href="/blog/folder" className="flex items-center gap-3 p-4 rounded-2xl bg-(--card-bg) border border-neutral-300/40 shadow-sm hover:shadow-md hover:-translate-y-2 hover:translate-x-1 transition">
                 <div className="flex justify-center items-center w-10 h-10 rounded-full bg-pink-200/50 text-pink-600">
                   🗂️
                 </div>
                 <div>
-                  <h3 className="font-semibold text-2xl text-[var(--text)] transition">Folder</h3>
+                  <h3 className="font-semibold text-2xl text-(--text) transition">Folder</h3>
                   <p className="text-m text-xl">collection of all blog</p>
                 </div>
               </Link>
 
-              <Link href="/blog/tags" className="flex items-center gap-3 p-4 rounded-2xl bg-[var(--card-bg)] border border-neutral-300/40 shadow-sm hover:shadow-md hover:-translate-y-2 hover:translate-x-1 transition">
+              <Link href="/blog/tags" className="flex items-center gap-3 p-4 rounded-2xl bg-(--card-bg) border border-neutral-300/40 shadow-sm hover:shadow-md hover:-translate-y-2 hover:translate-x-1 transition">
                 <div className="flex justify-center items-center w-10 h-10 rounded-full bg-blue-200/50 text-blue-600">
                   🏷️
                 </div>
                 <div>
-                  <h3 className="font-semibold text-2xl text-[var(--text)]  transition">Tags</h3>
+                  <h3 className="font-semibold text-2xl text-(--text)  transition">Tags</h3>
                   <p className="text-m text-xl">explore & search all the tags used</p>
                 </div>
               </Link>
@@ -65,9 +65,9 @@ export default function HomePage({ posts }: { posts: Post[] }) {
 
             {/* --- Blog list section --- */}
             {posts.map((post) => (
-              <article key={post.slug} className="p-5 bg-[var(--card-bg)] border border-neutral-300/40 shadow-md rounded-2xl transition hover:shadow-lg">
+              <article key={post.slug} className="p-5 bg-(--card-bg) border border-neutral-300/40 shadow-md rounded-2xl transition hover:shadow-lg">
                 <a href={`/blog/${post.slug}`}>
-                  <h2 className="text-xl font-bold mb-2 text-[var(--text)] hover:text-[var(--accent)] transition">
+                  <h2 className="text-xl font-bold mb-2 text-(--text) hover:text-(--accent) transition">
                     {post.title}
                   </h2>
                 </a>
