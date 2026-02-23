@@ -30,7 +30,7 @@ export default function ProjectsPage() {
                         {/* file parser/visualization tool*/}
                         <div className="relative flex flex-col items-center gap-4 bg-(--card-bg) border border-(--border-color) rounded-xl p-4 text-(--text) shadow-md mb-4">
                             <div className="font-semibold text-xl text-center">
-                                📁File Parser/Visualization Tool
+                                📁File Parser/Visualization Tool -in development
                             </div>
                             <p className="text-center text-(--accent)">
                                 A windows desktop application that parses and visualizes various file formats.
@@ -38,7 +38,7 @@ export default function ProjectsPage() {
                         </div>
                         {/* Anime Pilgrimage App */}
                         <div className="relative flex flex-col items-center gap-4 bg-(--card-bg) border border-(--border-color) rounded-xl p-4 text-(--text) shadow-md mb-4">
-                            <video src="/Anime-pilgrimage-demo.mp4" autoPlay muted loop></video>
+                            <video src="/Anime-pilgrimage-demo.mp4" autoPlay muted loop className="w-full h-svh rounded-lg"></video>
                             <div className="font-semibold text-xl text-center">
                                 🗺️Anime Pilgrimage — Mobile App (New Features in Progress)
                             </div>
