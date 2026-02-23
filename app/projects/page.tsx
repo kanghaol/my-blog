@@ -27,7 +27,15 @@ export default function ProjectsPage() {
 
                     {/* Projects */}
                     <div className="flex flex-col gap-4 bg-transparent col-span-3 order-2">
-
+                        {/* file parser/visualization tool*/}
+                        <div className="relative flex flex-col items-center gap-4 bg-(--card-bg) border border-(--border-color) rounded-xl p-4 text-(--text) shadow-md mb-4">
+                            <div className="font-semibold text-xl text-center">
+                                📁File Parser/Visualization Tool
+                            </div>
+                            <p className="text-center text-(--accent)">
+                                A windows desktop application that parses and visualizes various file formats.
+                            </p>
+                        </div>
                         {/* Anime Pilgrimage App */}
                         <div className="relative flex flex-col items-center gap-4 bg-(--card-bg) border border-(--border-color) rounded-xl p-4 text-(--text) shadow-md mb-4">
                             <video src="/Anime-pilgrimage-demo.mp4" autoPlay muted loop></video>
