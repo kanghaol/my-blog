@@ -40,11 +40,6 @@ export default function SideCard() {
                                     </svg>
                                 </a>
 
-                                {/* Steam */}
-                                <a href="https://steamcommunity.com/profiles/76561198304350400/" target="_blank" aria-label="Steam" className="hover:scale-110 transition-transform">
-                                    <FaSteam className="w-6 h-6 hover:text-[#66c0f4] hover:drop-shadow-[0_0_5px_#f97316] transition-colors"/> 
-                                </a>
-
                                 {/*LinkedIn*/}
                                 <a href="https://www.linkedin.com/in/kanghaolin/" target="_blank" aria-label="LinkedIn" className="hover:scale-110 transition-transform">
                                     <FaLinkedin className="w-6 h-6 hover:text-[#66c0f4] hover:drop-shadow-[0_0_5px_#f97316] transision-colors"/>
@@ -53,6 +48,11 @@ export default function SideCard() {
                                 {/* Resume */}
                                 <a href="/KangHao_Lin_Resume_03.pdf" download aria-label="Download Resume" className="hover:scale-110 transition-transform">
                                     <FaRegFilePdf  className="w-6 h-6 hover:text-(--accent) hover:drop-shadow-[0_0_5px_#f97316] transition-color"/>
+                                </a>
+
+                                {/* Steam */}
+                                <a href="https://steamcommunity.com/profiles/76561198304350400/" target="_blank" aria-label="Steam" className="hover:scale-110 transition-transform">
+                                    <FaSteam className="w-6 h-6 hover:text-[#66c0f4] hover:drop-shadow-[0_0_5px_#f97316] transition-colors"/> 
                                 </a>
                                 
                                 <button onClick={handleCopy} aria-label="Copy Gmail to clipboard" className="hover:scale-110 transition-transform focus:outline-none">
