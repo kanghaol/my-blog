@@ -25,10 +25,10 @@ export default function HomePage({ posts }: { posts: Post[] }) {
             {"Kang's Blog"} 
           </h1>
           <Typewriter phrases={[
-            "你好呀，欢迎来到这里!",
             "Welcome to my website!",
-            "愿每一岁都能奔走在自己的热爱里",
             "May your days be filled chasing what brings you joy",
+            "你好呀，欢迎来到这里!",
+            "愿每一岁都能奔走在自己的热爱里"
           ]}
           pauseTime={1500}
           />
@@ -92,7 +92,7 @@ export default function HomePage({ posts }: { posts: Post[] }) {
                     alt={post.title}
                     width={800}
                     height={450}
-                    className="w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-500"
+                    className="w-full h-48 object-cover hover:scale-[1.02] transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
                   />
                 </div>

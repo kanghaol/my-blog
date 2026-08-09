@@ -29,10 +29,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                         Kang's Blog
                     </h1>
                     <Typewriter phrases={[
-                        "你好呀，欢迎来到这里!",
                         "Welcome to my website!",
-                        "愿每一岁都能奔走在自己的热爱里",
                         "May your days be filled chasing what brings you joy",
+                        "你好呀，欢迎来到这里!",
+                        "愿每一岁都能奔走在自己的热爱里"
                     ]}
                     pauseTime={1500}
                     />
