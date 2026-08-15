@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
@@ -15,43 +16,28 @@ export default function AnimatedHero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIsFading(true);
+
       setTimeout(() => {
         setCurrentIndex((prev) => (prev + 1) % wallpapers.length);
         setNextIndex((prev) => (prev + 1) % wallpapers.length);
         setIsFading(false);
       }, 1000);
     }, 12000);
+
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className="relative h-[75vh] overflow-hidden">
-
-      {/* Next image layer (fade in) */}
+      {/* Current image */}
       <div
-        className={`absolute inset-0 transition-opacity duration-2000ms ${
-          isFading ? "opacity-100" : "opacity-0"
-        }`}
-      >
-        <Image
-          src={wallpapers[nextIndex]}
-          alt="Background next"
-          fill
-          loading= "lazy"
-          className="object-cover object-top animate-slow-zoom brightness-95"
-          sizes="100vw"
-        />
-      </div>
-
-      {/* Current image layer (fade out) */}
-      <div
-        className={`absolute inset-0 transition-opacity duration-2000ms ${
+        className={`absolute inset-0 transition-opacity duration-2000 ${
           isFading ? "opacity-0" : "opacity-100"
         }`}
       >
         <Image
           src={wallpapers[currentIndex]}
-          alt="Background current"
+          alt="Background"
           fill
           priority
           className="object-cover object-top animate-slow-zoom brightness-95"
@@ -59,7 +45,23 @@ export default function AnimatedHero() {
         />
       </div>
 
-      {/* Overlay gradient */}
+      {/* Next image */}
+      <div
+        className={`absolute inset-0 transition-opacity duration-2000 ${
+          isFading ? "opacity-100" : "opacity-0"
+        }`}
+      >
+        <Image
+          src={wallpapers[nextIndex]}
+          alt=""
+          fill
+          loading="lazy"
+          className="object-cover object-top animate-slow-zoom brightness-95"
+          sizes="100vw"
+        />
+      </div>
+
+      {/* Overlay */}
       <div className="absolute inset-0 bg-linear-to-b from-transparent via-[#0b0b0b]/50 to-[#0b0b0b]" />
     </div>
   );
