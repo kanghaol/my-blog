@@ -46,7 +46,7 @@ export default function SideCard() {
                                 </a>
 
                                 {/* Resume */}
-                                <a href="/KangHao_Lin_Resume_8.pdf" download aria-label="Download Resume" className="hover:scale-110 transition-transform">
+                                <a href="/Resume_KangHao_Lin_2026-08.pdf" download aria-label="Download Resume" className="hover:scale-110 transition-transform">
                                     <FaRegFilePdf  className="w-6 h-6 hover:text-(--accent) hover:drop-shadow-[0_0_5px_#f97316] transition-color"/>
                                 </a>
                                 
