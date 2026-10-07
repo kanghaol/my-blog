@@ -43,7 +43,7 @@ export default function ProjectsPage() {
                                 <a href= "https://microsoftedge.microsoft.com/addons/detail/lyricflow/jjoibnmdijpjkfndlbgboilkchncjkcb" target="_blank" className="hover:scale-105 transition-transform"> {techIcon("logos:microsoft-edge")}</a>
                             </div>
                             <a href= "https://chromewebstore.google.com/detail/lyricflow/onfinbognhiboggdmbpohjgfnddpnnen?authuser=0&hl=en" target="_blank" className="hover:scale-105 transition-transform">
-                                <video src="/lyricflow-demo.mp4" autoPlay muted loop className="w-full mute auto-play loop"></video>
+                                <Image src="/Lyricflow.jpeg" alt="LyricFlow" width={400} height={225} className="w-full h-auto" />
                             </a>
                             
                             <p className="text-center text-(--accent)">
