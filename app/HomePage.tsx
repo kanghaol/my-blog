@@ -66,11 +66,11 @@ export default function HomePage({ posts }: { posts: Post[] }) {
             {/* --- Blog list section --- */}
             {posts.map((post) => (
               <article key={post.slug} className="p-5 bg-(--card-bg) border border-neutral-300/40 shadow-md rounded-2xl transition hover:shadow-lg">
-                <a href={`/blog/${post.slug}`}>
+                <Link href={`/blog/${post.slug}`}>
                   <h2 className="text-xl font-bold mb-2 text-(--text) hover:text-(--accent) transition">
                     {post.title}
                   </h2>
-                </a>
+                </Link>
 
                 <div className="flex items-center gap-2 text-sm opacity-70 mb-3">
                   <span>🗓️ {post.date}</span>

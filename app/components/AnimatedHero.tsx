@@ -28,7 +28,7 @@ export default function AnimatedHero() {
   }, []);
 
   return (
-    <div className="relative h-[75vh] overflow-hidden">
+    <div className="relative h-[40vh] overflow-hidden md:h-[50vh]">
       {/* Current image */}
       <div
         className={`absolute inset-0 transition-opacity duration-2000 ${

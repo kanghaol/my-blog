@@ -3,6 +3,7 @@ import { siGithub } from "simple-icons";
 import { FaSteam, FaLinkedin, FaRegFilePdf} from "react-icons/fa";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function SideCard() {
     const [copied, setCopied] = useState(false);
@@ -15,12 +16,12 @@ export default function SideCard() {
         <aside className="md:top-4 bg-transparent col-span-1 md:order-1 order-2">
             <div className="relative mb-4">
                 <div className="mb-4 p-3 bg-(--card-bg) border border-neutral-300/40 shadow-md rounded-xl transition">
-                    <a href="/about/" className="relative group overflow-hidden active:scale-95 block lg:max-w-none lg:mt-0 lg:mx-0 max-w-48 mb-3 mt-1 mx-auto rounded-xl" aria-label="Go to About Page">
+                    <Link href="/about/" className="relative group overflow-hidden active:scale-95 block lg:max-w-none lg:mt-0 lg:mx-0 max-w-48 mb-3 mt-1 mx-auto rounded-xl" aria-label="Go to About Page">
                         <div className="relative overflow-hidden lg:mt-0 mx-auto h-full image-wrapper lg:w-full">
                             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition duration-500 ease-in-out pointer-events-none"></div>
                             <Image src="/icon.png" alt="icon" className="w-full h-full object-cover duration-500 ease-in-out transform group-hover:-translate-y-2" loading="eager" height="250" width="250" />
                         </div>
-                    </a>
+                    </Link>
                     <div className="px-2 card-bg">
                         <div></div>
                         <div className="text-xl font-bold text-(--text) mb-1 text-center transition hover:scale-105 hover:text-(--accent)">

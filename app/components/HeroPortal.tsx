@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
+import { motion } from "framer-motion";
 
 export default function HeroPortal({
   children,
@@ -33,5 +34,14 @@ export default function HeroPortal({
   }, [className]);
 
   if (!ready || !containerRef.current) return null;
-  return createPortal(children, containerRef.current);
+  return createPortal(
+    <motion.div
+      initial={{ opacity: 0.8, y: 18, scale: 0.98, filter: "blur(4px)" }}
+      animate={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
+      transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+    >
+      {children}
+    </motion.div>,
+    containerRef.current,
+  );
 }

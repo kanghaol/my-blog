@@ -6,6 +6,7 @@ import FallingLeavesCanvas from "./components/FallingLeavesCanvas";
 import Navbar from "./components/Navbar";
 import AnimatedHero from "./components/AnimatedHero";
 import NixieClock from "./components/NixieClock";
+import PageTransition from "./components/PageTransition";
 import { Analytics } from '@vercel/analytics/next';
 import { Orbitron } from "next/font/google";
 
@@ -36,7 +37,7 @@ export default function RootLayout({
         <div className="relative">
           <AnimatedHero />
 
-          <div id="hero-overlay-root" className="absolute top-0 left-0 w-full h-[75vh] pointer-events-none z-30">
+          <div id="hero-overlay-root" className="absolute top-0 left-0 w-full h-[40vh] pointer-events-none z-30 md:h-[50vh]">
             {/* portal target for per-page overlay content */}
           </div>
         </div>
@@ -44,7 +45,7 @@ export default function RootLayout({
         {/* page content below the AnimatedHero */}
         <main className="relative z-10 justify-center items-center">
           <NixieClock />
-          {children}
+          <PageTransition>{children}</PageTransition>
           <Analytics />
         </main>
         <Footer />
